@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Ergopti+</title>
+	<title>Disposition Ergopti+</title>
 	<meta name="description" content="Disposition Ergopti+" />
 </svelte:head>
 
