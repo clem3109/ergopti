@@ -1,4 +1,4 @@
-; Last modified on 2026-04-12 at 20:06 (UTC+2)
+; Last modified on 2026-04-24 at 15:33 (UTC+2)
 #Requires Autohotkey v2.0+
 #SingleInstance Force ; Ensure that only one instance of the script can run at once
 SetWorkingDir(A_ScriptDir) ; Set the working directory where the script is located
@@ -5572,8 +5572,8 @@ if Features["Autocorrection"]["Accents"].Enabled {
     CreateCaseSensitiveHotstrings("", "dument", "dûment")
 
     ; === E ===
-    CreateCaseSensitiveHotstrings("*", "écoeuré", "écoeuré")
-    CreateCaseSensitiveHotstrings("*", "écoeure", "écoeure")
+    CreateCaseSensitiveHotstrings("*", "écoeuré", "écœuré")
+    CreateCaseSensitiveHotstrings("*", "écoeure", "écœure")
     CreateCaseSensitiveHotstrings("*", "egoisme", "égoïsme")
     CreateCaseSensitiveHotstrings("*", "égoisme", "égoïsme")
     CreateCaseSensitiveHotstrings("*", "egoiste", "égoïste")
