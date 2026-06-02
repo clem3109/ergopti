@@ -1,0 +1,383 @@
+import { b as attr, e as ensure_array_like, a as escape_html, h as head } from "../../chunks/index2.js";
+import { P as PageWrapper } from "../../chunks/PageWrapper.js";
+import { K as KeyboardBasis, a as Keyboard } from "../../chunks/KeyboardBasis.js";
+import { K as KeyboardControls } from "../../chunks/KeyboardControls.js";
+import "../../chunks/stores_infos.js";
+import "@sveltejs/kit/internal";
+import "../../chunks/url.js";
+import "../../chunks/utils.js";
+import "clsx";
+import "@sveltejs/kit/internal/server";
+import "../../chunks/root.js";
+import "../../chunks/exports.js";
+import "../../chunks/state.svelte.js";
+/* empty css                                                 */
+import "aos";
+import "tocbot";
+import { E as Ergopti } from "../../chunks/Ergopti.js";
+import { b as base } from "../../chunks/server.js";
+import { S as SFB } from "../../chunks/SFB.js";
+import { E as ErgoptiPlus } from "../../chunks/ErgoptiPlus.js";
+function Alternance_mains($$renderer) {
+  $$renderer.push(`<section><h2>Alternance des mains</h2> <p>L’alternance des mains est très importante pour garantir une bonne <strong>fluidité de frappe</strong>, et donc un meilleur confort. L’objectif est d’essayer d’avoir le plus possible d’alternance des mains lors de la frappe du texte : main droite, puis main gauche, main droite, main gauche,
+		etc.</p> <p>Cette alternance des mains permet de <strong>ne pas surutiliser l’une des deux mains</strong> en n’en utilisant qu’une pour taper la majorité du texte. Cela se ferait en effet au détriment
+		de l’autre main qui resterait au-dessus de sa partie du clavier, à attendre de pouvoir enfin entrer
+		en jeu. Ainsi, avec une bonne alternance des mains, pendant qu’une main frappe une touche, l’autre
+		peut se replacer sur la rangée du milieu et se préparer à frapper la suivante.</p> <p>Si la touche suivante est sur la même main que la touche précédente (sauf éventuellement avec un
+		roulement, cf. la partie suivante), la frappe sera moins confortable. Imaginez que vous deviez
+		atteindre le <kbd>C</kbd> de l’AZERTY, puis le <kbd>R</kbd>, pour écrire <kbd>CR</kbd>, un bigramme très courant en
+		français et anglais. Dans ce cas, vous devez d’abord légèrement abaisser votre main pour que le
+		majeur atteigne la rangée du bas pour taper <kbd>C</kbd>. Puis, il faut que l’index atteigne quant à lui la rangée du haut pour taper <kbd>R</kbd>. En résulte un sentiment d’inconfort avec deux doigts proches mais qui doivent
+		aller dans des directions différentes. Le terme technique pour un enchaînement de ce type est
+		appelé <em>ciseau</em>, car les doigts font un grand écart pour atteindre des rangées complètement
+		différentes. Au contraire, <strong>en "parallélisant" les frappes sur les deux mains</strong>, le résultat se révèle bien plus satisfaisant et ces ciseaux sont évités.</p> <p>L’alternance des mains a une limite. Il est impossible d’alterner parfaitement à chaque frappe.
+		C’est pourquoi, une fois une alternance maximale atteinte, il faut encore améliorer l’expérience
+		de frappe dans le cas où deux touches de la même main doivent être frappées d’affilée. C’est là
+		qu’interviennent les roulements, présentés en détail dans la section suivante.</p></section>`);
+}
+function Distance_doigts_touches($$renderer) {
+  $$renderer.push(`<section><h2 class="first-h2">Distance des doigts aux touches</h2> <h3>Optimisation de la rangée du milieu</h3> <p>Lors de l’apprentissage de la dactylographie, il est enseigné que les doigts doivent reposer sur
+		la rangée du milieu (<kbd>QSDF</kbd> et <kbd>JKLM</kbd> en AZERTY). En particulier, il y a souvent une petite bosse sur les touches
+		de repos pour les index, qui sont donc <kbd>F</kbd> et <kbd>J</kbd> en AZERTY.</p> <p>➜ L’idée est de taper sur une touche, puis de tout de suite replacer le doigt sur la rangée du
+		milieu. Cela permet de toujours être capable de bouger rapidement dans n’importe quelle
+		direction, un peu comme un sportif se replace toujours au milieu du terrain au cours d’un match.</p> <p>Il est alors logique de se dire que nos doigts étant la plupart du temps sur la rangée du
+		milieu, autant y placer les lettres les plus fréquemment utilisées. En procédant ainsi, il n’y a
+		presque plus besoin de bouger les doigts, juste à presser les lettres de la rangée de repos et
+		parfois atteindre les rangées supérieures ou inférieures pour les lettres les moins fréquentes.</p> <keyboard data-color="azerty"><keyboard-row class="center"><keyboard-key data-finger="auriculaire" data-hand="left" style="--size: 1;"><div>Q</div></keyboard-key> <keyboard-key data-finger="annulaire" data-hand="left" style="--size: 1;"><div>S</div></keyboard-key> <keyboard-key data-finger="majeur" data-hand="left" style="--size: 1;"><div>D</div></keyboard-key> <keyboard-key data-finger="index" data-hand="left" style="--size: 1;"><div>F</div></keyboard-key> <div style="display: inline-block; width: 50px;"></div> <keyboard-key data-finger="index" data-hand="right" style="--size: 1;"><div>J</div></keyboard-key> <keyboard-key data-finger="majeur" data-hand="right" style="--size: 1;"><div>K</div></keyboard-key> <keyboard-key data-finger="annulaire" data-hand="right" style="--size: 1;"><div>L</div></keyboard-key> <keyboard-key data-finger="auriculaire" data-hand="right" style="--size: 1;"><div>M</div></keyboard-key></keyboard-row> <keyboard-legend>Rangée du milieu en AZERTY</keyboard-legend></keyboard> <p>Pourtant, le QWERTY (et donc l’AZERTY) ne fait pas mieux qu’une disposition aléatoire sur ce
+		point. Son origine fait l’objet de multiples théories. L’une des plus connues avance qu’elle
+		aurait été conçue pour réduire les risques d’enchevêtrement des marteaux sur les premières
+		machines à écrire. Cependant, cette explication est remise en question par de nombreuses
+		personnes. D’autres motivations, notamment d’ordre commercial, ont également pu influencer ce
+		choix. À titre d’exemple, la rangée supérieure des touches aurait été organisée de façon à
+		permettre d’écrire aisément le mot <kbd-output>TYPEWRITER</kbd-output> lors de démonstrations publiques,
+		renforçant ainsi l’attrait des machines.</p> <p>Certaines des touches ayant les fréquences d’apparition les plus rares (en français et en
+		anglais) sont sur ces excellents emplacements comme le <kbd>Q</kbd>, le <kbd>F</kbd>, le <kbd>J</kbd> et le <kbd>K</kbd>. Pire, la quasi-totalité des touches les plus utilisées se
+		retrouvent en fait sur la rangée du dessus (<kbd>AZERTYUIOP</kbd>). C’est notamment le cas de
+		toutes les voyelles (sauf du <kbd>A</kbd> en QWERTY), dont le nombre est faible comparé au nombre
+		de consonnes, mais qui sont toutefois incontournables pour l’écriture de chaque mot.</p> <keyboard data-color="ergopti"><keyboard-row class="center"><keyboard-key data-finger="auriculaire" data-hand="left" style="--size: 1;"><div>A</div></keyboard-key> <keyboard-key data-finger="annulaire" data-hand="left" style="--size: 1;"><div>I</div></keyboard-key> <keyboard-key data-finger="majeur" data-hand="left" style="--size: 1;"><div>E</div></keyboard-key> <keyboard-key data-finger="index" data-hand="left" style="--size: 1;"><div>U</div></keyboard-key> <div style="display: inline-block; width: 50px;"></div> <keyboard-key data-finger="index" data-hand="right" style="--size: 1;"><div>S</div></keyboard-key> <keyboard-key data-finger="majeur" data-hand="right" style="--size: 1;"><div>N</div></keyboard-key> <keyboard-key data-finger="annulaire" data-hand="right" style="--size: 1;"><div>T</div></keyboard-key> <keyboard-key data-finger="auriculaire" data-hand="right" style="--size: 1;"><div>R</div></keyboard-key></keyboard-row> <keyboard-legend>Rangée du milieu en `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!----></keyboard-legend></keyboard> <p>En français et en anglais, le <kbd>E</kbd> est de très loin la lettre la plus fréquente.
+		Viennent ensuite les voyelles <kbd>A</kbd>, <kbd>I</kbd>, <kbd>O</kbd> et <kbd>U</kbd>, ainsi
+		que les consonnes <kbd>S</kbd>, <kbd>N</kbd>, <kbd>T</kbd> et <kbd>R</kbd>. `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!----> place donc
+		les lettres les plus utilisées sur la rangée du milieu. En résulte immédiatement un déplacement des
+		doigts largement diminué et un meilleur confort.</p> <h3>Optimisation selon la force des doigts</h3> <p>Une fois que les lettres les plus fréquentes ont été placées sur la rangée du milieu, il reste
+		encore beaucoup à faire. En effet, <strong>chaque doigt a une force différente</strong>. Ainsi,
+		un pouce a plus de force qu’un index, qui a plus de force qu’un majeur, qui a plus de force
+		qu’un annulaire, qui a plus de force qu’un auriculaire. Il est facile de s’en rendre compte :
+		presser fort de l’index sur une table, puis tenter de faire de même avec son auriculaire met en
+		lumière cette différence.</p> <p>Par conséquent, ce constat de la force des doigts pris en compte, les meilleurs emplacements
+		sont ceux sur la rangée de repos, en partant de l’index pour aller vers l’annulaire. Puis, les
+		meilleurs emplacements seront sur les touches au-dessus et en-dessous de la rangée de repos, en
+		partant là encore de l’index pour aller vers l’annulaire.</p> <tiny-space></tiny-space> <p>La rangée des chiffres est donc encore moins accessible, car il faut traverser deux rangées
+		depuis la rangée de repos pour l’atteindre. C’est pour cette raison que laisser le <kbd>É</kbd> sur cette ligne comme en AZERTY est une très mauvaise idée, car cette lettre est beaucoup utilisée
+		en français. Par exemple, en français, le <kbd>É</kbd> est environ 2 fois plus fréquent que le <kbd>J</kbd>, dont la touche est pourtant en AZERTY sur l’un des meilleurs emplacements du
+		clavier : la touche de repos de l’index.</p> <p>Enfin, contrairement à BÉPO ou Optimot, `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!----> ne place pas de symboles de programmation ou
+		de ponctuation sur la rangée des chiffres. Ces symboles sont ramenés au plus près des doigts grâce
+		à l’utilisation de la couche <kbd>AltGr</kbd>.</p> <tiny-space></tiny-space> `);
+  KeyboardBasis($$renderer, { id: "frequences" });
+  $$renderer.push(`<!----> <tiny-space></tiny-space> <p>Comme le montre le clavier ci-dessus, les lettres les plus fréquentes sont bien sur la rangée du
+		milieu en `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!---->. Effectivement, la lettre la plus fréquente, le <kbd>E</kbd>, est en
+		rouge. Viennent ensuite en orange les voyelles et consonnes les plus fréquentes. Enfin, les
+		lettres en vert, voire bleu, sont les moins fréquentes de toutes.</p> <p>Attention toutefois, car ces fréquences vont varier selon le texte analysé et la langue de
+		celui-ci. Vous trouverez plus de détails sur la page <a${attr("href", base + "/benchmarks")} class="link">Benchmarks</a>.</p></section>`);
+}
+function Minimisation_sfbs($$renderer) {
+  $$renderer.push(`<section><h2>Minimisation des SFBs</h2> <p>La disposition AZERTY est extrêmement mauvaise au vu de la distance nécessaire pour atteindre
+		les touches les plus fréquentes. Toutefois, c’est loin d’être son seul défaut. L’un de ses
+		autres problèmes majeurs est son grand nombre de `);
+  SFB($$renderer);
+  $$renderer.push(`<!---->s.</p> <p>Qu’est-ce qu’un `);
+  SFB($$renderer);
+  $$renderer.push(`<!----> ? C’est le fait de <strong>devoir taper deux touches d’affilée avec exactement le même doigt</strong>. Par exemple, c’est taper <kbd>DE</kbd> en AZERTY : il faut d’abord utiliser le majeur gauche pour taper <kbd>D</kbd>, puis le remonter d’une rangée pour atteindre le <kbd>E</kbd>. Avec `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!---->, le <kbd>D</kbd> est sur l’annulaire droit sur la rangée du bas et le <kbd>E</kbd> est directement sur la rangée
+		du milieu, sur le majeur gauche. Ici, c’est une alternance des mains qui permet d’éviter un `);
+  SFB($$renderer);
+  $$renderer.push(`<!---->. Une autre possibilité aurait été de simplement déplacer une des deux lettres sur une
+		autre colonne, à condition que cela ne génère pas de `);
+  SFB($$renderer);
+  $$renderer.push(`<!----> encore pire…</p> <p>Il est donc impossible de paralléliser sa frappe lors d’un `);
+  SFB($$renderer);
+  $$renderer.push(`<!---->. Suivre un chemin linéaire
+		est nécessaire : d’abord taper la première touche, puis bouger son doigt pour atteindre la
+		deuxième, puis enfin frapper la deuxième touche, toujours avec le même doigt. Impossible de
+		déplacer deux doigts en même temps pour ne plus avoir qu’à taper dans le bon ordre sur les
+		touches atteintes. Le pire est quand ces `);
+  SFB($$renderer);
+  $$renderer.push(`<!---->s constituent la majorité de nos frappes, ce qui
+		se produit si l’on utilise une disposition non optimisée comme AZERTY.</p> <tiny-space></tiny-space> <p>Une combinaison de deux touches, c’est-à-dire deux caractères qui se suivent, est appelée <em>bigramme</em> (ou <em>digramme</em>). Pour optimiser une disposition clavier, il faut s’assurer que les
+		bigrammes les plus fréquents ne se fassent pas avec le même doigt : on parle de <strong>limiter les <em>Same Finger Bigrams</em></strong>.</p> <p>➜ Cette tâche est bien plus difficile qu’on puisse le penser, car certaines lettres comme le <kbd>E</kbd> ou le <kbd>R</kbd> se combinent avec presque toutes les autres. Il faut alors choisir de les
+		regrouper avec les lettres faisant les bigrammes les moins fréquents. Par conséquent, la
+		suppression totale des `);
+  SFB($$renderer);
+  $$renderer.push(`<!---->s est impossible. Toutefois, il est quand même possible de les
+		réduire drastiquement. C’est ce que fait `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!---->.</p></section>`);
+}
+function Placement_logique_touches($$renderer) {
+  $$renderer.push(`<section><h2>Placement logique des symboles</h2> <p>Afin de <strong>faciliter la mémorisation</strong> ainsi que de <strong>réduire la charge cognitive</strong>, les touches de la disposition sont, le plus
+		possible, <strong>placées logiquement</strong>. C’est notamment le cas grâce à une séparation
+		des lettres par main : les voyelles sont toutes présentes à gauche et les consonnes à droite
+		(sauf le <kbd>W</kbd>, le <kbd>B</kbd> et le <kbd>K</kbd>). En outre, le placement logique des
+		caractères est particulièrement présent sur la couche <kbd>AltGr</kbd> :</p> <ul><li><kbd>AltGr</kbd> + <kbd>À</kbd> ➜ <kbd-output>\\</kbd-output> car le <strong>\\</strong> est au-dessus du A (Le <kbd-output>\\</kbd-output> était auparavant sur le <kbd>È</kbd> et le <kbd-output>\`</kbd-output> sur le <kbd>À</kbd>, car
+			plus logique. Cependant, cela a finalement été déplacé pour placer plus près ce symbole qui
+			est très utilisé en programmation, notamment en LaTeX.) ;</li> <li><kbd>AltGr</kbd> + <kbd>C</kbd> ➜ <kbd-output>ç</kbd-output> car la cédille est sous le <strong>C</strong> ;</li> <li><kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>U</kbd> ➜ <kbd-output>µ</kbd-output> car cette touche morte permettant d’écrire les lettres grecques (α, β, γ, δ…), dont µ (MU) ;</li> <li><kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>E</kbd> ➜ <kbd-output>ᵉ</kbd-output> car c’est la touche morte <strong>E</strong>xposant ;</li> <li><kbd>AltGr</kbd> + <kbd>É</kbd> ➜ <kbd-output>/</kbd-output> car le <strong>/</strong> est au-dessus du E ;</li> <li><kbd>AltGr</kbd> + <kbd>È</kbd> ➜ <kbd-output>\`</kbd-output> car le <strong>\`</strong> est au-dessus du E ;</li> <li><kbd>AltGr</kbd> + <kbd>Ê</kbd> ➜ <kbd-output>^</kbd-output> car le <strong>^</strong> est au-dessus du E ;</li> <li><kbd>AltGr</kbd> + <kbd>H</kbd> ➜ <kbd-output>#</kbd-output> car c’est la première lettre de <strong>H</strong>ashtag ;</li> <li><kbd>AltGr</kbd> + <kbd>L</kbd> ➜ <kbd-output>=</kbd-output> car éga<strong>L</strong> ;</li> <li><kbd>AltGr</kbd> + <kbd>M</kbd> ➜ <kbd-output>&amp;</kbd-output> car le nom de ce symbole est a<strong>M</strong>persand ;</li> <li><kbd>AltGr</kbd> + <kbd>P</kbd> ➜ <kbd-output>+</kbd-output> car c’est la première lettre de <strong>P</strong>lus ;</li> <li><kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>R</kbd> ➜ <kbd-output>ℝ</kbd-output> car c’est la touche morte pour écrire les ensembles mathématiques
+			(ℕ, ℤ, ℚ, ℝ, ℂ), dont l'un des plus connus est <strong>R</strong> ;</li> <li><kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>T</kbd> ➜ <kbd-output class="deadkey">◌̈</kbd-output> car c’est la touche morte <strong>T</strong>réma ;</li> <li><kbd>AltGr</kbd> + <kbd>V</kbd> ➜ <kbd-output>|</kbd-output> car c’est la barre <strong>V</strong>erticale ;</li> <li><kbd>AltGr</kbd> + <kbd>X</kbd> ➜ <kbd-output>*</kbd-output> car <strong>x</strong> ressemble au fois.</li></ul> <tiny-space></tiny-space> <p>D’autres sont placées par paires l’une à côté de l’autre :</p> <ul><li><kbd>AltGr</kbd> + <kbd>A</kbd> ➜ <kbd-output>&lt;</kbd-output> et <kbd>AltGr</kbd> + <kbd>I</kbd> ➜ <kbd-output>></kbd-output> ;</li> <li><kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>A</kbd> ➜ <kbd-output>≤</kbd-output> et <kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>I</kbd> ➜ <kbd-output>≥</kbd-output> ;</li> <li><kbd>AltGr</kbd> + <kbd>E</kbd> ➜ <kbd-output>{</kbd-output> et <kbd>AltGr</kbd> + <kbd>U</kbd> ➜ <kbd-output>}</kbd-output> ;</li> <li><kbd>AltGr</kbd> + <kbd>S</kbd> ➜ <kbd-output>(</kbd-output> et <kbd>AltGr</kbd> + <kbd>N</kbd> ➜ <kbd-output>)</kbd-output> ;</li> <li><kbd>AltGr</kbd> + <kbd>T</kbd> ➜ <kbd-output>[</kbd-output> et <kbd>AltGr</kbd> + <kbd>R</kbd> ➜ <kbd-output>]</kbd-output> ;</li> <li><kbd>AltGr</kbd> + <kbd>B</kbd> ➜ <kbd-output>«</kbd-output> et <kbd>AltGr</kbd> + <kbd>F</kbd> ➜ <kbd-output>»</kbd-output> ;</li> <li><kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>B</kbd> ➜ <kbd-output>“</kbd-output> et <kbd>Shift</kbd> + <kbd>AltGr</kbd> + <kbd>F</kbd> ➜ <kbd-output>”</kbd-output>.</li></ul> <tiny-space></tiny-space> <p class="encadre">À noter que les touches sont aussi placées le plus possible par distance selon leur fréquence
+		d’utilisation. Ainsi, les paires de touches très utilisées <kbd>()</kbd>, <kbd>{}</kbd>, <kbd>&lt;></kbd> et <kbd>[]</kbd> sont toutes sur la rangée du milieu.</p></section>`);
+}
+function Chiffres_acces_direct($$renderer) {
+  $$renderer.push(`<section><h2>Chiffres en accès direct et couche AltGr de symboles</h2> <p>Les chiffres sont en accès direct sur les dispositions QWERTY ou encore DVORAK, mais pas en
+		AZERTY, BÉPO ni Optimot. Chaque manière de faire a ses avantages, car en AZERTY les symboles
+		sont alors directement accessibles et donc plus facilement réalisables. En revanche, il devient
+		compliqué d’écrire un nombre en plein milieu d’une phrase, car cela nécessite de passer en <kbd>Shift</kbd> momentanément pour l’écrire.</p> <p>Avoir les chiffres en accès direct permet d’<strong>écrire très rapidement des nombres</strong>. C’est un réel gain en confort. La rangée des chiffres n’est de toute façon pas très
+		accessible. Par conséquent, il vaut mieux placer les symboles qu’elle contenait sur la couche <kbd>AltGr</kbd> qui est plus proche des doigts. C’est exactement ce que fait `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!----> avec sa couche AltGr de
+		symboles qui amène les symboles directement sous les doigts :</p> <tiny-space></tiny-space> `);
+  KeyboardBasis($$renderer, { id: "symboles" });
+  $$renderer.push(`<!----></section>`);
+}
+function Utilisation_une_main($$renderer) {
+  $$renderer.push(`<section><h2>Optimisation pour l’utilisation à une main</h2> <p>Lors de l’utilisation d’un ordinateur, la plupart du temps la souris est tenue de la main droite
+		et la main gauche repose près de la partie gauche du clavier. Quand vient le moment de taper sur
+		une touche ou de réaliser une combinaison de touches pour faire un raccourci, il est bien
+		souvent nécessaire de bouger la main droite. Celle-ci doit se déplacer de la souris à la partie
+		droite du clavier, taper dessus, puis retourner à la souris pour continuer la navigation.</p> <p>Par conséquent, il est également important de s’assurer que, grâce à sa disposition clavier,
+		beaucoup d’actions courantes puissent se réaliser avec la seule main gauche <strong>afin de ne pas avoir à lâcher la souris</strong>. À noter que sur ce point AZERTY est très bon, car <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd> et de nombreuses autres lettres fréquemment utilisées pour faire des raccourcis en combinaison avec <kbd>Ctrl</kbd> sont du côté gauche.</p> <h3>Conservation des raccourcis <kbd>Ctrl</kbd> + <kbd>X</kbd>, <kbd>C</kbd>, <kbd>V</kbd> et <kbd>Z</kbd></h3> `);
+  KeyboardBasis($$renderer, { id: "controle" });
+  $$renderer.push(`<!----> <tiny-space></tiny-space> <p>Les raccourcis <kbd-output>Ctrl</kbd-output> + <kbd-output>X</kbd-output>, <kbd-output>Ctrl</kbd-output> + <kbd-output>C</kbd-output>, <kbd-output>Ctrl</kbd-output> + <kbd-output>V</kbd-output> et <kbd-output>Ctrl</kbd-output> + <kbd-output>Z</kbd-output> sont conservés à gauche avec `);
+  Ergopti($$renderer);
+  $$renderer.push(`<!---->. Cela permet de les réaliser sans avoir à bouger la main droite.
+		Ils sont respectivement en <kbd>Ctrl</kbd> + <kbd>Ê</kbd>, <kbd>Ctrl</kbd> + <kbd>É</kbd>, <kbd>Ctrl</kbd> + <kbd>À</kbd> et <kbd>Ctrl</kbd> + <kbd>È</kbd>.</p> <h3>Touches de raccourci sur la version Ergodox</h3> `);
+  KeyboardBasis($$renderer, { id: "raccourcis_ergodox" });
+  $$renderer.push(`<!----> <tiny-space></tiny-space> <p>La version d’`);
+  Ergopti($$renderer);
+  $$renderer.push(`<!----> adaptée aux claviers de type Ergodox est complètement optimisée pour l’utilisation
+		à une main, car des touches <kbd>Copier</kbd>, <kbd>Coller</kbd>, <kbd>Couper</kbd> et <kbd>Alt+Tab</kbd> ont été directement incluses à gauche du clavier. À noter que ces touches ne sont
+		pas définies dans le pilote et que ce sont uniquement des idées d’implémentation. Les claviers de
+		type Ergodox peuvent en effet être programmés pour ajouter et déplacer des touches.</p> <h3>Touches de raccourci sur la version ISO</h3> <p>La version ISO (pour claviers standards) ne peut quant à elle malheureusement pas bénéficier des
+		touches de raccourci de la version Ergodox, car les touches à sa gauche sont déjà occupées par
+		les touches <kbd>Shift</kbd>, <kbd>CapsLock</kbd> et <kbd>Tab</kbd> contrairement à l’Ergodox où l’on peut
+		placer ces 3 touches sous les pouces.</p> <p>`);
+  ErgoptiPlus($$renderer);
+  $$renderer.push(`<!----> donne toutefois un moyen de contourner les limites de la version ISO grâce à un <strong>mécanisme de tap-hold</strong>. L’idée du tap-hold est qu’il est possible d’assigner
+		deux actions à une même touche : une au tap (appui bref) et une au hold (maintenir pressé).
+		Grâce au tap-hold, il devient possible d’avoir le comportement suivant : presser puis relâcher un modificateur envoie
+		un raccourci, mais le presser en combinaison avec une autre touche le fait se comporter normalement. Cela permet d’intégrer des
+		touches <kbd-output>Copier</kbd-output>, <kbd-output>Coller</kbd-output> et <kbd-output>Alt+Tab</kbd-output> respectivement sur <kbd>LShift</kbd>, <kbd>LCtrl</kbd> et <kbd>Alt</kbd>. En outre, un layer de navigation ainsi
+		que les touches <kbd>Backspace</kbd> et <kbd>Entrée</kbd> sont également disponibles à gauche du clavier avec `);
+  ErgoptiPlus($$renderer);
+  $$renderer.push(`<!---->.</p></section>`);
+}
+function Optimisation_roulements($$renderer, $$props) {
+  $$renderer.component(($$renderer2) => {
+    const keyboard = new Keyboard("roulements");
+    let texte;
+    let roulements_voyelles = [
+      "ai",
+      "aie",
+      "au",
+      "ei",
+      "eu",
+      "ée",
+      "ie",
+      "ieu",
+      "io",
+      "oi",
+      "ou",
+      "oui",
+      "ow",
+      "ue",
+      "wo",
+      "ye",
+      "yo",
+      "you"
+    ];
+    let roulements_consonnes = [
+      "ch",
+      "cr",
+      "d’",
+      "ght",
+      "gr",
+      "ld",
+      "nc",
+      "nd",
+      "ng",
+      "ns",
+      "nt",
+      "ntr",
+      "pl",
+      "rs",
+      "sh",
+      "th",
+      "tr"
+    ];
+    $$renderer2.push(`<section><h2>Optimisation des roulements</h2> <p>L’optimisation de l’alternance des mains engendre que lors de l’utilisation d’une main pour
+		frapper une touche, il y a une forte probabilité que le frappe suivante se produise avec l’autre
+		main. Toutefois, cela n’arrive pas dans la totalité des cas, c’est pourquoi il convient de
+		s’assurer que le plus possible de frappes intra-mains se réalisent à l’aide de roulements, aussi
+		appelés <em>rolls</em> en anglais.</p> <p>Un roulement consiste à frapper deux touches avec la même main, sans que cela n’entraîne de `);
+    SFB($$renderer2);
+    $$renderer2.push(`<!----> ni de <em>ciseau</em>. Généralement, la frappe est tellement rapide que la première
+		touche n’est pas encore relâchée que le seconde est déjà pressée. Cela donne une impression très
+		agréable de "rouler" sur les touches.</p> <p>Cependant, tous les roulement ne se valent pas. Les meilleurs sont ceux sur deux doigts
+		consécutifs et jamais à plus d’une rangée d’écart. Cela évite tout problème de coordination, car
+		s’il faut "sauter" un doigt, par exemple pour utiliser l’index puis l’annulaire, le mouvement
+		peut être plus lent et le risque de se tromper un peu plus élevé. Par exemple, un roulement est
+		le <kbd>PO</kbd> de l’AZERTY ou le <kbd>ST</kbd> du BÉPO (idéalement, car mouvement horizontal).
+		Sinon, c’est éventuellement le <kbd>SE</kbd> de l’AZERTY ou le <kbd>DR</kbd> du BÉPO. Toutefois,
+		ce n’est pas le <kbd>CE</kbd> de l’AZERTY ni le <kbd>GL</kbd> du BÉPO.</p> <p class="encadre">La disposition `);
+    Ergopti($$renderer2);
+    $$renderer2.push(`<!----> a été construite avec pour contrainte principale de permettre de réaliser
+		les bigrammes consonne-consonne et voyelle-voyelle les plus courants grâce à des roulements, de préférence
+		sur deux doigts consécutifs dans un mouvement horizontal.</p> <tiny-space></tiny-space> <p>Les roulements d’`);
+    Ergopti($$renderer2);
+    $$renderer2.push(`<!----> sont visibles sur le clavier ci-dessous :</p> `);
+    KeyboardBasis($$renderer2, { id: "roulements" });
+    $$renderer2.push(`<!----> <div style="height: 20px"></div> <keyboard-control-rolls style="width: 100%; margin: 0 auto; display: inline-block; text-align: center">`);
+    $$renderer2.select(
+      {
+        value: texte,
+        onchange: () => keyboard.typeText(texte, 250, false)
+      },
+      ($$renderer3) => {
+        $$renderer3.option({ selected: true, disabled: true, hidden: true }, ($$renderer4) => {
+          $$renderer4.push(`Sélectionner le roulement`);
+        });
+        $$renderer3.option({ disabled: true }, ($$renderer4) => {
+          $$renderer4.push(`— Roulements voyelles —`);
+        });
+        $$renderer3.push(`<!--[-->`);
+        const each_array = ensure_array_like(roulements_voyelles);
+        for (let $$index = 0, $$length = each_array.length; $$index < $$length; $$index++) {
+          let value = each_array[$$index];
+          $$renderer3.option({ value }, ($$renderer4) => {
+            $$renderer4.push(`${escape_html(value.toUpperCase())}`);
+          });
+        }
+        $$renderer3.push(`<!--]-->`);
+        $$renderer3.option({ disabled: true }, ($$renderer4) => {
+          $$renderer4.push(`— Roulements consonnes —`);
+        });
+        $$renderer3.push(`<!--[-->`);
+        const each_array_1 = ensure_array_like(roulements_consonnes);
+        for (let $$index_1 = 0, $$length = each_array_1.length; $$index_1 < $$length; $$index_1++) {
+          let value = each_array_1[$$index_1];
+          $$renderer3.option({ value }, ($$renderer4) => {
+            $$renderer4.push(`${escape_html(value.toUpperCase())}`);
+          });
+        }
+        $$renderer3.push(`<!--]-->`);
+      }
+    );
+    $$renderer2.push(`</keyboard-control-rolls> <h3>Bons bigrammes voyelle-voyelle</h3> <ul><li><kbd>AI</kbd> ;</li> <li><kbd>AU</kbd> ;</li> <li><kbd>EU</kbd> et <kbd>UE</kbd> ;</li> <li><kbd>ÉE</kbd> ;</li> <li><kbd>IE</kbd> et <kbd>EI</kbd> ;</li> <li><kbd>IO</kbd> et <kbd>OI</kbd> ;</li> <li><kbd>OU</kbd> ;</li> <li><kbd>YE</kbd> ;</li> <li><kbd>YO</kbd>.</li></ul> <p>Avec même quelques trigrammes très confortables :</p> <ul><li><kbd>AIE</kbd> : notamment pour écrire <strong>AIE</strong>NT (avec en plus <kbd>NT</kbd> qui est
+			lui aussi un roulement, que demander de plus ?) ;</li> <li><kbd>IEU</kbd> ;</li> <li><kbd>OUI</kbd> ;</li> <li><kbd>YOU</kbd>.</li></ul> <h3>Bons bigrammes consonne-consonne</h3> <ul><li><kbd>CH</kbd> : <strong>ce bigramme est extraordinaire</strong>, une fois habitué il est
+			difficile de s’en passer ;</li> <li><kbd>CR</kbd> ;</li> <li><kbd>D’</kbd> ;</li> <li><kbd>GR</kbd> ;</li> <li><kbd>LD</kbd> : fréquent en anglais (O<strong>LD</strong>, COU<strong>LD</strong>, SHOU<strong>LD</strong>, WOU<strong>LD</strong>, etc.) ;</li> <li><kbd>NC</kbd> ;</li> <li><kbd>ND</kbd> : extrêmement fréquent, notamment pour tous les A<strong>ND</strong> en anglais ;</li> <li><kbd>NG</kbd> : pour tous les -I<strong>NG</strong> en anglais ;</li> <li><kbd>NS</kbd> et <kbd>SN</kbd> ;</li> <li><kbd>NT</kbd> : c’est le <strong>bigramme consonne-consonne le plus fréquent en français</strong> ;</li> <li><kbd>PL</kbd> ;</li> <li><kbd>RS</kbd> ;</li> <li><kbd>SH</kbd> ;</li> <li><kbd>TH</kbd> : c’est le <strong>bigramme le plus fréquent, et de loin, en anglais</strong> et
+			il est ultra-confortable ;</li> <li><kbd>TR</kbd> et <kbd>RT</kbd> .</li></ul> <p>Avec même quelques trigrammes très confortables :</p> <ul><li><kbd>NTR</kbd> ;</li> <li><kbd>GHT</kbd> : très fréquent en anglais pour tous les -OU<strong>GHT</strong> et -I<strong>GHT</strong> ;</li></ul> <h3>Autres bons bigrammes</h3> <ul><li><kbd>OW</kbd> : très utilisé en anglais (ALL<strong>OW</strong>, D<strong>OW</strong>N, FOLL<strong>OW</strong>, H<strong>OW</strong>, KN<strong>OW</strong>, N<strong>OW</strong>, <strong>OW</strong>N, SH<strong>OW</strong>, etc.) ;</li> <li><kbd>WO</kbd> : très utilisé en anglais (T<strong>WO</strong>, <strong>WO</strong>MAN, <strong>WO</strong>RD, <strong>WO</strong>RK, <strong>WO</strong>RLD, <strong>WO</strong>RTH, <strong>WO</strong>ULD, etc.) ;</li> <li><kbd>+=</kbd> : utilisé en programmation pour incrémenter.</li></ul></section>`);
+  });
+}
+function Introduction_ergopti($$renderer) {
+  $$renderer.push(`<section class="svelte-lki1q2"><div class="svelte-lki1q2"><h1 data-aos="zoom-in" class="ergopti-title svelte-lki1q2">Disposition clavier<br class="svelte-lki1q2"/><span class="svelte-lki1q2">— </span><span style="line-height: 0.75!important;" class="svelte-lki1q2">`);
+  Ergopti($$renderer);
+  $$renderer.push(`<!----><span class="svelte-lki1q2"> —</span></span></h1> `);
+  KeyboardBasis($$renderer, { id: "presentation" });
+  $$renderer.push(`<!----> <tiny-space class="svelte-lki1q2"></tiny-space> `);
+  KeyboardControls($$renderer, { id: "presentation" });
+  $$renderer.push(`<!----></div> <div style="margin: 0 auto; text-align:center; padding-top: 5px;" class="svelte-lki1q2"><a href="#debut" class="scroll-down svelte-lki1q2"><i class="icon-chevron-down svelte-lki1q2"></i></a></div> <div id="debut" class="svelte-lki1q2"><small-space class="svelte-lki1q2"></small-space> <hr class="svelte-lki1q2"/> <p class="encart-introduction svelte-lki1q2"><strong class="svelte-lki1q2">`);
+  Ergopti($$renderer);
+  $$renderer.push(`<!----></strong> est une <strong class="svelte-lki1q2">disposition clavier ergonomique et optimisée</strong> pour le <b class="svelte-lki1q2">français</b>, l’<b class="svelte-lki1q2">anglais</b> et la <b class="svelte-lki1q2">programmation</b>. Fruit de nombreuses réflexions
+			et expérimentations, elle permet une frappe fluide, rapide et <strong class="nowrap svelte-lki1q2">un confort d’exception</strong>.</p> <hr class="svelte-lki1q2"/></div> <tiny-space class="svelte-lki1q2"></tiny-space> <div class="cards svelte-lki1q2"><div class="card svelte-lki1q2"><i class="icon-circle-1 svelte-lki1q2"><span class="path1 svelte-lki1q2"></span><span class="path2 svelte-lki1q2"></span></i> <strong class="svelte-lki1q2">Diminution de la distance parcourue</strong> par les doigts pour moins de fatigue et plus
+			de vitesse.</div> <div class="card svelte-lki1q2"><i class="icon-circle-2 svelte-lki1q2"><span class="path1 svelte-lki1q2"></span><span class="path2 svelte-lki1q2"></span></i> <strong class="svelte-lki1q2">Frappe extrêmement fluide</strong> par élimination de la quasi-totalité des <span class="nowrap svelte-lki1q2">`);
+  SFB($$renderer);
+  $$renderer.push(`<!---->s.</span></div> <div class="card svelte-lki1q2"><i class="icon-circle-3 svelte-lki1q2"><span class="path1 svelte-lki1q2"></span><span class="path2 svelte-lki1q2"></span></i> <strong class="svelte-lki1q2">Alternance des mains</strong> maximisée pour paralléliser la frappe et ainsi écrire plus
+			vite.</div> <div class="card svelte-lki1q2"><i class="icon-circle-4 svelte-lki1q2"><span class="path1 svelte-lki1q2"></span><span class="path2 svelte-lki1q2"></span></i> <strong class="svelte-lki1q2">Frappe ultra-confortable</strong> grâce à une optimisation des roulements.</div> <div class="card svelte-lki1q2"><i class="icon-circle-5 svelte-lki1q2"><span class="path1 svelte-lki1q2"></span><span class="path2 svelte-lki1q2"></span></i> <strong class="svelte-lki1q2">Placement logique</strong> des symboles, permettant de s’en souvenir aisément.</div> <div class="card svelte-lki1q2"><i class="icon-circle-6 svelte-lki1q2"><span class="path1 svelte-lki1q2"></span><span class="path2 svelte-lki1q2"></span></i> <strong class="svelte-lki1q2">Chiffres en accès direct</strong>, raccourcis sur la main gauche, ponctuations
+			insécables, et plus…</div></div> <p class="encart-introduction svelte-lki1q2">L’intégralité du code de la disposition et de ce site est disponible sous licence MIT sur <a href="https://github.com/adrienm7/ergopti" target="_blank" class="link nowrap svelte-lki1q2">le GitHub du projet</a>.</p> <tiny-space class="svelte-lki1q2"></tiny-space> <div style="text-align:center;" class="svelte-lki1q2"><a${attr("href", base + "/utilisation")} class="svelte-lki1q2"><button class="alt-button svelte-lki1q2">➜ Essayer en ligne / Installation</button></a></div> <big-space class="svelte-lki1q2"></big-space></section>`);
+}
+function Espace_insecable_automatique($$renderer) {
+  $$renderer.push(`<section><h2>Ponctuations avec espace insécable automatique</h2> <p>Les signes <kbd>;</kbd>, <kbd>:</kbd>, <kbd>?</kbd> et <kbd>!</kbd> bénéficient d’un traitement
+		intelligent. Saisis sur la couche <kbd>Shift</kbd>, ils sont <strong>automatiquement insérés précédés d’une espace insécable</strong>. Contrairement à une
+		espace classique, ce caractère spécial garantit que la ponctuation reste toujours solidaire du
+		mot qui la précède. Résultat : fini les <kbd-output>?</kbd-output> orphelins rejetés seuls en début
+		de ligne ! Tous vos documents, e-mails, messages sur les réseaux sociaux et autres textes gagneront
+		instantanément en professionnalisme.</p> <p>⚠ <strong>Attention toutefois :</strong> ce raccourci est à réserver uniquement à la rédaction
+		de texte courant — et uniquement pour le français d’ailleurs, car en anglais la convention est
+		de ne pas mettre d’espace avant les ponctuations. En revanche, lors de l’écriture de code
+		informatique, cette espace — souvent non distinguable visuellement d’une espace classique — sera
+		considérée comme un caractère invalide et provoquera des erreurs de syntaxe. Pour coder, il
+		faudra donc plutôt utiliser la couche <kbd>AltGr</kbd>, car celle-ci envoie la <strong>ponctuation brute</strong> (sans espace automatique). Cela permet de programmer
+		sereinement tout en conservant la possibilité d’écrire un français typographiquement impeccable
+		avec <kbd>Shift</kbd>.</p> <tiny-space></tiny-space> <div class="encadre"><p class="important margin0">La règle est donc simple à mémoriser :</p> <ul class="margin0"><li><kbd>Shift</kbd> pour le français (typographie soignée) ;</li> <li class="margin0"><kbd>AltGr</kbd> pour la programmation (code brut) et l’anglais.</li></ul></div></section>`);
+}
+function Ergopti_plus($$renderer) {
+  $$renderer.push(`<section><div style="border-bottom: 1px solid rgba(255, 255, 255, 0.5);"></div> <div style="background:black; padding-top: 10px; padding-bottom: 100px; overflow-x: hidden; /* Très important pour que les animations AOS horizontales n’agrandissent pas l’écran */"><div id="orb"><div class="wrap"><!--[-->`);
+  const each_array = ensure_array_like(Array(300));
+  for (let index = 0, $$length = each_array.length; index < $$length; index++) {
+    each_array[index];
+    $$renderer.push(`<div class="c"></div>`);
+  }
+  $$renderer.push(`<!--]--></div> <p class="text-orange-gradient text-center svelte-1nrgf54" style="margin-top: 30vh; padding-top: 15vh; padding-bottom:8vh; border:none; box-shadow: none; font-weight:bolder; font-size:2rem" data-aos="none">★ Pour aller encore <b>+</b> loin ★</p> <div class="texte-orb" style="max-width: 850px; margin:0 auto; margin-top:-50px"><hr/> <p class="encart-introduction">`);
+  ErgoptiPlus($$renderer);
+  $$renderer.push(`<!----> permet d’avoir une disposition encore meilleure. Les `);
+  SFB($$renderer);
+  $$renderer.push(`<!---->s sont
+					éradiqués, les roulements sont améliorés et les doigts ont encore moins de distance à
+					parcourir. Découvrez cette amélioration (optionnelle) de la disposition en consultant la
+					page associée :</p> <a href="ergopti-plus" style="text-decoration: none;"><button style="display:block; margin: 0 auto; margin-bottom: 25px; background: rgba(0, 0, 0, 0.2); padding: 10px; padding-top: 6px; border-radius: 3px; border: 1px solid white;">`);
+  ErgoptiPlus($$renderer);
+  $$renderer.push(`<!----></button></a> <hr/></div></div></div></section>`);
+}
+function _page($$renderer) {
+  head("1uha8ag", $$renderer, ($$renderer2) => {
+    $$renderer2.title(($$renderer3) => {
+      $$renderer3.push(`<title>Disposition Ergopti</title>`);
+    });
+    $$renderer2.push(`<meta name="description" content="Ergopti, une disposition clavier ergonomique optimisée pour le français, l'anglais et le code"/>`);
+  });
+  PageWrapper($$renderer, {
+    children: ($$renderer2) => {
+      Distance_doigts_touches($$renderer2);
+      $$renderer2.push(`<!----> `);
+      Minimisation_sfbs($$renderer2);
+      $$renderer2.push(`<!----> `);
+      Alternance_mains($$renderer2);
+      $$renderer2.push(`<!----> `);
+      Optimisation_roulements($$renderer2);
+      $$renderer2.push(`<!----> `);
+      Chiffres_acces_direct($$renderer2);
+      $$renderer2.push(`<!----> `);
+      Placement_logique_touches($$renderer2);
+      $$renderer2.push(`<!----> `);
+      Espace_insecable_automatique($$renderer2);
+      $$renderer2.push(`<!----> `);
+      Utilisation_une_main($$renderer2);
+      $$renderer2.push(`<!---->`);
+    },
+    $$slots: {
+      default: true,
+      introduction: ($$renderer2) => {
+        {
+          $$renderer2.push(`<bloc-introduction>`);
+          Introduction_ergopti($$renderer2);
+          $$renderer2.push(`<!----></bloc-introduction>`);
+        }
+      },
+      "bloc-fin": ($$renderer2) => {
+        {
+          $$renderer2.push(`<bloc-fin>`);
+          Ergopti_plus($$renderer2);
+          $$renderer2.push(`<!----></bloc-fin>`);
+        }
+      }
+    }
+  });
+}
+export {
+  _page as default
+};

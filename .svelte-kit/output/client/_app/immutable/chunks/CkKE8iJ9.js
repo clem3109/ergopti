@@ -1,0 +1,1 @@
+import{b as p,f as s}from"./BJlL0-Sw.js";import"./BTyc-JLB.js";import{a8 as t,a9 as e,aa as m}from"./jmuzHjgz.js";import{E as i}from"./BWvAs9YZ.js";var n=s('<name-ergopti-plus><!><span class="glow plus">+</span></name-ergopti-plus>',2);function E(o){var a=n(),r=t(a);i(r),e(),m(a),p(o,a)}export{E};

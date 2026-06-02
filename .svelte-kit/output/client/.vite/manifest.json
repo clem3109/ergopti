@@ -1,0 +1,3135 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "file": "_app/immutable/entry/app.BVlvsCAD.js",
+    "name": "entry/app",
+    "src": ".svelte-kit/generated/client-optimized/app.js",
+    "isEntry": true,
+    "imports": [
+      "_PPVm8Dsz.js",
+      "_jmuzHjgz.js",
+      "_DoS8hReC.js",
+      "_BJlL0-Sw.js",
+      "_BTEXbN4H.js",
+      "_oZPnEnlq.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js",
+      ".svelte-kit/generated/client-optimized/nodes/3.js",
+      ".svelte-kit/generated/client-optimized/nodes/4.js",
+      ".svelte-kit/generated/client-optimized/nodes/5.js",
+      ".svelte-kit/generated/client-optimized/nodes/6.js",
+      ".svelte-kit/generated/client-optimized/nodes/7.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.DMIs_yqT.js",
+    "name": "nodes/0",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_D3TV2xAF.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.B1DT8HSC.js",
+    "name": "nodes/1",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_DoS8hReC.js",
+      "_CIuX9R6V.js",
+      "_Dl2NJAAt.js",
+      "_CF79PsVf.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/nodes/2.1eegyLbR.js",
+    "name": "nodes/2",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_BWvAs9YZ.js",
+      "_DLF4ccXQ.js",
+      "_BiZdC78W.js",
+      "_B70JfeE_.js",
+      "_D3TV2xAF.js",
+      "_BPWAtOn3.js",
+      "_BIyeAHj5.js",
+      "_Dl2NJAAt.js",
+      "_CZDbLwOt.js",
+      "_CkKE8iJ9.js",
+      "_DoS8hReC.js",
+      "_lXnObdeJ.js",
+      "_DsAeEPd9.js",
+      "_CIuX9R6V.js"
+    ],
+    "css": [
+      "_app/immutable/assets/2.uU2MUjUd.css"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/3.js": {
+    "file": "_app/immutable/nodes/3.CTG9dzUp.js",
+    "name": "nodes/3",
+    "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_DoS8hReC.js",
+      "_BTEXbN4H.js",
+      "_lXnObdeJ.js",
+      "_vcCtZRDX.js",
+      "_BWvAs9YZ.js",
+      "_DsAeEPd9.js",
+      "_CIuX9R6V.js",
+      "_DLF4ccXQ.js",
+      "_DY6x2aWE.js",
+      "_Dl2NJAAt.js",
+      "_CkKE8iJ9.js",
+      "_CZDbLwOt.js",
+      "_PPVm8Dsz.js"
+    ],
+    "dynamicImports": [
+      "static/ergopti/windows/Ergopti_v1.1.3.exe?url",
+      "static/ergopti/windows/Ergopti_v2.0.2.exe?url",
+      "static/ergopti/windows/Ergopti_v2.1.1.exe?url",
+      "static/ergopti/windows/Ergopti_v2.1.2.exe?url",
+      "static/ergopti/windows/Ergopti_v2.1.3.exe?url",
+      "static/ergopti/windows/Ergopti_v2.2.0.exe?url",
+      "static/ergopti/windows/Ergopti_v2.2.1.exe?url",
+      "static/ergopti/windows/Ergopti_v1.1.3.kbe?url",
+      "static/ergopti/windows/Ergopti_v2.0.2.kbe?url",
+      "static/ergopti/windows/Ergopti_v2.1.1.kbe?url",
+      "static/ergopti/windows/Ergopti_v2.1.2.kbe?url",
+      "static/ergopti/windows/Ergopti_v2.1.3.kbe?url",
+      "static/ergopti/windows/Ergopti_v2.2.0.kbe?url",
+      "static/ergopti/windows/Ergopti_v2.2.1.kbe?url",
+      "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.0.bundle.zip?url",
+      "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.1.bundle.zip?url",
+      "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.2.bundle.zip?url",
+      "static/ergopti_plus/windows/ErgoptiPlus.ahk?url",
+      "static/layouts/kla_iso/ergopti.v1.0.1.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.10.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.11.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.11.fraude.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.12.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.16.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.17.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.19.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v1.0.19.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.2.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.3.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.4.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.5.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.7.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.8.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.9.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.1.3.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v1.1.3.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v2.0.0.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v2.0.0.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v2.1.0.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v2.1.0.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v2.2.0.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v2.2.0.fr.iso.json",
+      "static/layouts/kla_iso/ergopti.v1.0.19.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v1.1.3.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v2.0.0.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v2.1.0.fr.iso+.json",
+      "static/layouts/kla_iso/ergopti.v2.2.0.fr.iso+.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.1.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.10.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.11.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.12.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.16.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.17.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.19.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.2.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.3.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.4.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.5.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.6.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.7.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.8.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.9.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.1.3.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v2.0.0.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v2.1.0.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v2.2.0.fr.ergodox.json",
+      "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v1.1.3.toml",
+      "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.0.0.toml",
+      "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.0.toml",
+      "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.1.toml",
+      "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.2.toml",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3_analyse.toml",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0_analyse.toml",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0_analyse.toml",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2_analyse.toml",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0_analyse.toml",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3_analyse.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0_analyse.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0_analyse.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2_analyse.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0.toml?url",
+      "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0_analyse.toml?url",
+      "static/layouts/kla_ergodox/ergopti.v1.0.1.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.10.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.11.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.12.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.16.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.17.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.19.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.2.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.3.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.4.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.5.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.6.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.7.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.8.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.0.9.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v1.1.3.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v2.0.0.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v2.1.0.fr.ergodox.json",
+      "static/layouts/kla_ergodox/ergopti.v2.2.0.fr.ergodox.json"
+    ],
+    "assets": [
+      "_app/immutable/assets/chained_code_bigrams_7.CtAXe1Lw.avif",
+      "_app/immutable/assets/chained_code_bigrams_7.DxXUYXzG.avif",
+      "_app/immutable/assets/chained_code_bigrams_7.zVZu3jaY.webp",
+      "_app/immutable/assets/chained_code_bigrams_7.oA051cX-.webp",
+      "_app/immutable/assets/chained_code_bigrams_7.BdySPUmb.jpeg",
+      "_app/immutable/assets/chained_code_bigrams_7.Bpaut6Nf.jpeg",
+      "_app/immutable/assets/data_munging_with_perl.DaW-4Zvu.avif",
+      "_app/immutable/assets/data_munging_with_perl.BuXVPbTz.avif",
+      "_app/immutable/assets/data_munging_with_perl.BnyODO6y.webp",
+      "_app/immutable/assets/data_munging_with_perl.DXbY3QpH.webp",
+      "_app/immutable/assets/data_munging_with_perl.CztU3rXm.jpeg",
+      "_app/immutable/assets/data_munging_with_perl.CohykFHj.jpeg",
+      "_app/immutable/assets/practical_php_testing.BOwrLy5k.avif",
+      "_app/immutable/assets/practical_php_testing.BZeZ9qy6.avif",
+      "_app/immutable/assets/practical_php_testing.CxpKIs-C.webp",
+      "_app/immutable/assets/practical_php_testing.BBKvBo2c.webp",
+      "_app/immutable/assets/practical_php_testing.CQrFW7hL.jpeg",
+      "_app/immutable/assets/practical_php_testing.DuCdi54a.jpeg",
+      "_app/immutable/assets/programming_punctuation.CG0P_jAJ.avif",
+      "_app/immutable/assets/programming_punctuation.CpJYZ7Iv.avif",
+      "_app/immutable/assets/programming_punctuation.C4j5dy29.webp",
+      "_app/immutable/assets/programming_punctuation.DprM0gGb.webp",
+      "_app/immutable/assets/programming_punctuation.B2OVVmsz.jpeg",
+      "_app/immutable/assets/programming_punctuation.Cu6NyV9P.jpeg",
+      "_app/immutable/assets/python_for_everybody.a-jLTIAI.avif",
+      "_app/immutable/assets/python_for_everybody.yHxeolES.avif",
+      "_app/immutable/assets/python_for_everybody.CYp1FC8i.webp",
+      "_app/immutable/assets/python_for_everybody.BtRgXn0Y.webp",
+      "_app/immutable/assets/python_for_everybody.CNkWeGzU.jpeg",
+      "_app/immutable/assets/python_for_everybody.iLvicGSy.jpeg",
+      "_app/immutable/assets/random_text.JnOmUK7_.avif",
+      "_app/immutable/assets/random_text.CvhcbMg9.avif",
+      "_app/immutable/assets/random_text.GNPxp_w4.webp",
+      "_app/immutable/assets/random_text.CfgLW1YA.webp",
+      "_app/immutable/assets/random_text.Crr78Bau.jpeg",
+      "_app/immutable/assets/random_text.CuQAMJKr.jpeg",
+      "_app/immutable/assets/think_c__.BoGsCZlY.avif",
+      "_app/immutable/assets/think_c__.D39wqOhb.avif",
+      "_app/immutable/assets/think_c__.FTqzFksh.webp",
+      "_app/immutable/assets/think_c__.REpX47vI.webp",
+      "_app/immutable/assets/think_c__.B4AwTDke.jpeg",
+      "_app/immutable/assets/think_c__.D9Xz_HeK.jpeg",
+      "_app/immutable/assets/think_java.gCeAUFe5.avif",
+      "_app/immutable/assets/think_java.jwJav_V3.avif",
+      "_app/immutable/assets/think_java.Dt2V4-Du.webp",
+      "_app/immutable/assets/think_java.COhEKjVf.webp",
+      "_app/immutable/assets/think_java._1qq8bx9.jpeg",
+      "_app/immutable/assets/think_java.C3eCx7aZ.jpeg",
+      "_app/immutable/assets/500_common_words_in_prose.C2AjYsiv.avif",
+      "_app/immutable/assets/500_common_words_in_prose.DSt40Pjd.avif",
+      "_app/immutable/assets/500_common_words_in_prose.DpHFjK2s.webp",
+      "_app/immutable/assets/500_common_words_in_prose.Cwdrwho3.webp",
+      "_app/immutable/assets/500_common_words_in_prose.Bec34zpr.jpeg",
+      "_app/immutable/assets/500_common_words_in_prose.rdKJRzza.jpeg",
+      "_app/immutable/assets/basic_words.VVxjptu_.avif",
+      "_app/immutable/assets/basic_words.DL6vl5Le.avif",
+      "_app/immutable/assets/basic_words.BDQKKDZH.webp",
+      "_app/immutable/assets/basic_words.LKkvJs8q.webp",
+      "_app/immutable/assets/basic_words.BD7ZV88O.jpeg",
+      "_app/immutable/assets/basic_words.q89TYOlz.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_7.C1QEmGKB.avif",
+      "_app/immutable/assets/chained_english_bigrams_7.rHJ5hdvM.avif",
+      "_app/immutable/assets/chained_english_bigrams_7.D4s18Zy5.webp",
+      "_app/immutable/assets/chained_english_bigrams_7.DOCEIRph.webp",
+      "_app/immutable/assets/chained_english_bigrams_7.5HUWuwdm.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_7.BhZOCXYC.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_9.4ZTWGJBO.avif",
+      "_app/immutable/assets/chained_english_bigrams_9.Clz8EuTm.avif",
+      "_app/immutable/assets/chained_english_bigrams_9.Da-UHrsv.webp",
+      "_app/immutable/assets/chained_english_bigrams_9.9HVPSefS.webp",
+      "_app/immutable/assets/chained_english_bigrams_9.DptXzaly.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_9.CsXZ1OJy.jpeg",
+      "_app/immutable/assets/chained_proglish_bigrams_7.BpKbv5YH.avif",
+      "_app/immutable/assets/chained_proglish_bigrams_7.BePLhDBG.avif",
+      "_app/immutable/assets/chained_proglish_bigrams_7.DRyu9ZnR.webp",
+      "_app/immutable/assets/chained_proglish_bigrams_7.BlvsRoWV.webp",
+      "_app/immutable/assets/chained_proglish_bigrams_7.JHliEOil.jpeg",
+      "_app/immutable/assets/chained_proglish_bigrams_7.CTxzaehW.jpeg",
+      "_app/immutable/assets/common_english_words.5HfaX84y.avif",
+      "_app/immutable/assets/common_english_words.DvabB2gQ.avif",
+      "_app/immutable/assets/common_english_words.8kVgScgh.webp",
+      "_app/immutable/assets/common_english_words.Byqy91PH.webp",
+      "_app/immutable/assets/common_english_words.DGjOk4Lg.jpeg",
+      "_app/immutable/assets/common_english_words.CTbfhZlt.jpeg",
+      "_app/immutable/assets/common_sat_words.DtcV-SOp.avif",
+      "_app/immutable/assets/common_sat_words.I9-C-5Nh.avif",
+      "_app/immutable/assets/common_sat_words.DtV3VgWn.webp",
+      "_app/immutable/assets/common_sat_words.-BWCncY6.webp",
+      "_app/immutable/assets/common_sat_words.Cq_F8KPP.jpeg",
+      "_app/immutable/assets/common_sat_words.BLqDkoFg.jpeg",
+      "_app/immutable/assets/difficult_words.CdOh8oVL.avif",
+      "_app/immutable/assets/difficult_words.Ck5KLKHX.avif",
+      "_app/immutable/assets/difficult_words.DfBeuLNk.webp",
+      "_app/immutable/assets/difficult_words.eQSMk-zo.webp",
+      "_app/immutable/assets/difficult_words.CNi9ZwLx.jpeg",
+      "_app/immutable/assets/difficult_words.8iLqZZD8.jpeg",
+      "_app/immutable/assets/corpus_johnix_mails.CDVYlZxL.avif",
+      "_app/immutable/assets/corpus_johnix_mails.Dz_l80yd.avif",
+      "_app/immutable/assets/corpus_johnix_mails.zd_1yMU8.webp",
+      "_app/immutable/assets/corpus_johnix_mails.BLD_gVeu.webp",
+      "_app/immutable/assets/corpus_johnix_mails.CN69jq5y.jpeg",
+      "_app/immutable/assets/corpus_johnix_mails.BG43jI0m.jpeg",
+      "_app/immutable/assets/corpus_nemolivier.BoUB4guK.avif",
+      "_app/immutable/assets/corpus_nemolivier.DH1u17qY.avif",
+      "_app/immutable/assets/corpus_nemolivier.D3VVzcc4.webp",
+      "_app/immutable/assets/corpus_nemolivier.6BE6Mg_A.webp",
+      "_app/immutable/assets/corpus_nemolivier.DFc5asQQ.jpeg",
+      "_app/immutable/assets/corpus_nemolivier.BqXnzRqO.jpeg",
+      "_app/immutable/assets/don_quichotte.BuPIqvay.avif",
+      "_app/immutable/assets/don_quichotte.PjbFo47p.avif",
+      "_app/immutable/assets/don_quichotte.DPWhwl3O.webp",
+      "_app/immutable/assets/don_quichotte.tKD1GQRX.webp",
+      "_app/immutable/assets/don_quichotte.nD6svw9A.jpeg",
+      "_app/immutable/assets/don_quichotte.DOg9Mdz-.jpeg",
+      "_app/immutable/assets/essais.C7nUJf58.avif",
+      "_app/immutable/assets/essais.BAoHJjWB.avif",
+      "_app/immutable/assets/essais.87nUnI0S.webp",
+      "_app/immutable/assets/essais.Dys4_-7W.webp",
+      "_app/immutable/assets/essais.BzLmoAPv.jpeg",
+      "_app/immutable/assets/essais.CsN3BKoU.jpeg",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.CEMJgEPk.avif",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BFr-foMc.avif",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.C-S3oVP3.webp",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BRqtr_EH.webp",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.DwSepTRu.jpeg",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.Jqu1RWZx.jpeg",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.KNTNb13-.avif",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.V4FgdYFm.avif",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BEXb9nFV.webp",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.VZopo5z5.webp",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BVq-3Mjd.jpeg",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.CujYCtSY.jpeg",
+      "_app/immutable/assets/panache.BqvU9gGu.avif",
+      "_app/immutable/assets/panache.rQDCkfp3.avif",
+      "_app/immutable/assets/panache.Ds-azRej.webp",
+      "_app/immutable/assets/panache.5GS-K6W4.webp",
+      "_app/immutable/assets/panache.CqtSbqzD.jpeg",
+      "_app/immutable/assets/panache.xzR0uAoA.jpeg",
+      "_app/immutable/assets/romans.UoFyD7iK.avif",
+      "_app/immutable/assets/romans.D4icTchz.avif",
+      "_app/immutable/assets/romans.Dmemqftc.webp",
+      "_app/immutable/assets/romans.DizzDSuG.webp",
+      "_app/immutable/assets/romans.BDkKE8Co.jpeg",
+      "_app/immutable/assets/romans.bWBh3Cvi.jpeg",
+      "_app/immutable/assets/chained_code_bigrams_7.DmZsYScD.avif",
+      "_app/immutable/assets/chained_code_bigrams_7.CfbarafZ.avif",
+      "_app/immutable/assets/chained_code_bigrams_7.z9cPAlET.webp",
+      "_app/immutable/assets/chained_code_bigrams_7.DMEki_GC.webp",
+      "_app/immutable/assets/chained_code_bigrams_7.BYvN9kpw.jpeg",
+      "_app/immutable/assets/chained_code_bigrams_7.B7Md7mZ1.jpeg",
+      "_app/immutable/assets/data_munging_with_perl.NJUWg_uw.avif",
+      "_app/immutable/assets/data_munging_with_perl.Ycl-085Q.avif",
+      "_app/immutable/assets/data_munging_with_perl.DI_y6s01.webp",
+      "_app/immutable/assets/data_munging_with_perl.B5yYd4cn.webp",
+      "_app/immutable/assets/data_munging_with_perl.BrPhDnLS.jpeg",
+      "_app/immutable/assets/data_munging_with_perl.DOqfl8MO.jpeg",
+      "_app/immutable/assets/practical_php_testing.9OQkxXP7.avif",
+      "_app/immutable/assets/practical_php_testing.BcqNyVaZ.avif",
+      "_app/immutable/assets/practical_php_testing.BoQp67HV.webp",
+      "_app/immutable/assets/practical_php_testing.-DmZZpPY.webp",
+      "_app/immutable/assets/practical_php_testing.BaIxpn0l.jpeg",
+      "_app/immutable/assets/practical_php_testing.B8CoNlLk.jpeg",
+      "_app/immutable/assets/programming_punctuation.CDvqdfUc.avif",
+      "_app/immutable/assets/programming_punctuation.CPWoWB4_.avif",
+      "_app/immutable/assets/programming_punctuation.BVT3VCL0.webp",
+      "_app/immutable/assets/programming_punctuation.CksXrEGL.webp",
+      "_app/immutable/assets/programming_punctuation.D0DP_iGC.jpeg",
+      "_app/immutable/assets/programming_punctuation.BdfQdfFU.jpeg",
+      "_app/immutable/assets/python_for_everybody.Db5rNa19.avif",
+      "_app/immutable/assets/python_for_everybody.CusM41yB.avif",
+      "_app/immutable/assets/python_for_everybody.Y1CG3QEg.webp",
+      "_app/immutable/assets/python_for_everybody.DWUa8Pwq.webp",
+      "_app/immutable/assets/python_for_everybody.DWA7jV3L.jpeg",
+      "_app/immutable/assets/python_for_everybody.B3lULesT.jpeg",
+      "_app/immutable/assets/random_text.DH-14E9O.avif",
+      "_app/immutable/assets/random_text.D8F1ANd0.avif",
+      "_app/immutable/assets/random_text.BKARmqvE.webp",
+      "_app/immutable/assets/random_text.BMit6aY5.webp",
+      "_app/immutable/assets/random_text.CA5Sb_Dk.jpeg",
+      "_app/immutable/assets/random_text.C-8lNp-t.jpeg",
+      "_app/immutable/assets/think_c__.CNGBcpGs.avif",
+      "_app/immutable/assets/think_c__.BznSQ6Zt.avif",
+      "_app/immutable/assets/think_c__.CmWMjo-g.webp",
+      "_app/immutable/assets/think_c__.LuJQDuqu.webp",
+      "_app/immutable/assets/think_c__.B4IZHbV-.jpeg",
+      "_app/immutable/assets/think_c__.Cwe8AX8x.jpeg",
+      "_app/immutable/assets/think_java.DbF_gvh2.avif",
+      "_app/immutable/assets/think_java.CVd-ue-b.avif",
+      "_app/immutable/assets/think_java.BMeWy1En.webp",
+      "_app/immutable/assets/think_java.dZ3ktV-h.webp",
+      "_app/immutable/assets/think_java.yFDaLpZX.jpeg",
+      "_app/immutable/assets/think_java.DFEyXcr8.jpeg",
+      "_app/immutable/assets/500_common_words_in_prose.Do484qGk.avif",
+      "_app/immutable/assets/500_common_words_in_prose.BP0GAQmG.avif",
+      "_app/immutable/assets/500_common_words_in_prose.BC3_3unJ.webp",
+      "_app/immutable/assets/500_common_words_in_prose.DwlymLGP.webp",
+      "_app/immutable/assets/500_common_words_in_prose.cRqI8GBc.jpeg",
+      "_app/immutable/assets/500_common_words_in_prose.dfHvlfyB.jpeg",
+      "_app/immutable/assets/basic_words.D5JadLDb.avif",
+      "_app/immutable/assets/basic_words.BwTM9kPf.avif",
+      "_app/immutable/assets/basic_words.DXwLkMr5.webp",
+      "_app/immutable/assets/basic_words.F7exbCrT.webp",
+      "_app/immutable/assets/basic_words.DU9lm-y4.jpeg",
+      "_app/immutable/assets/basic_words.CKnORNAP.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_7.CFh94FzX.avif",
+      "_app/immutable/assets/chained_english_bigrams_7.D8NSirP0.avif",
+      "_app/immutable/assets/chained_english_bigrams_7.BKEFxpEy.webp",
+      "_app/immutable/assets/chained_english_bigrams_7.NF-ULo2y.webp",
+      "_app/immutable/assets/chained_english_bigrams_7.CIKw4hJN.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_7.B5forMZT.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_9.BZbx674j.avif",
+      "_app/immutable/assets/chained_english_bigrams_9.FxIbJUFK.avif",
+      "_app/immutable/assets/chained_english_bigrams_9.PSMuy7NS.webp",
+      "_app/immutable/assets/chained_english_bigrams_9.CInE2BO5.webp",
+      "_app/immutable/assets/chained_english_bigrams_9.le-DSpmr.jpeg",
+      "_app/immutable/assets/chained_english_bigrams_9.DLkRVlsz.jpeg",
+      "_app/immutable/assets/chained_proglish_bigrams_7.1dFj1phK.avif",
+      "_app/immutable/assets/chained_proglish_bigrams_7.ylV33CDC.avif",
+      "_app/immutable/assets/chained_proglish_bigrams_7.C90TV9uh.webp",
+      "_app/immutable/assets/chained_proglish_bigrams_7.XEvNc_pC.webp",
+      "_app/immutable/assets/chained_proglish_bigrams_7.BBFG40TD.jpeg",
+      "_app/immutable/assets/chained_proglish_bigrams_7.DcP__XsA.jpeg",
+      "_app/immutable/assets/common_english_words.Cm_rn8H8.avif",
+      "_app/immutable/assets/common_english_words.n6hedY6m.avif",
+      "_app/immutable/assets/common_english_words.C3V695Be.webp",
+      "_app/immutable/assets/common_english_words.AUQ5qZ7w.webp",
+      "_app/immutable/assets/common_english_words.BrEufku8.jpeg",
+      "_app/immutable/assets/common_english_words.CGIwTpfC.jpeg",
+      "_app/immutable/assets/common_sat_words.BV58lE3-.avif",
+      "_app/immutable/assets/common_sat_words.DRLn7WDU.avif",
+      "_app/immutable/assets/common_sat_words.vxksLkN_.webp",
+      "_app/immutable/assets/common_sat_words.D5YpUjdg.webp",
+      "_app/immutable/assets/common_sat_words.Dq6Ianwx.jpeg",
+      "_app/immutable/assets/common_sat_words.DaQt-GAZ.jpeg",
+      "_app/immutable/assets/difficult_words.CKIEqZYJ.avif",
+      "_app/immutable/assets/difficult_words.BYqHwLS9.avif",
+      "_app/immutable/assets/difficult_words.DJdeBwsw.webp",
+      "_app/immutable/assets/difficult_words.DObyyZoy.webp",
+      "_app/immutable/assets/difficult_words.DHl-dkqa.jpeg",
+      "_app/immutable/assets/difficult_words.C5cq59Zk.jpeg",
+      "_app/immutable/assets/corpus_johnix_mails.LeNZbS2u.avif",
+      "_app/immutable/assets/corpus_johnix_mails.2wE1HS4-.avif",
+      "_app/immutable/assets/corpus_johnix_mails.DUlGgDt4.webp",
+      "_app/immutable/assets/corpus_johnix_mails.Cfk0tLeq.webp",
+      "_app/immutable/assets/corpus_johnix_mails.CBzRoD7x.jpeg",
+      "_app/immutable/assets/corpus_johnix_mails.D8hAZ4nB.jpeg",
+      "_app/immutable/assets/corpus_nemolivier.CVlsIW5-.avif",
+      "_app/immutable/assets/corpus_nemolivier.BZcUqY8a.avif",
+      "_app/immutable/assets/corpus_nemolivier.COI1BIC9.webp",
+      "_app/immutable/assets/corpus_nemolivier.wbxCMwLT.webp",
+      "_app/immutable/assets/corpus_nemolivier.BEv5RCyU.jpeg",
+      "_app/immutable/assets/corpus_nemolivier.BuIcZXmM.jpeg",
+      "_app/immutable/assets/don_quichotte.1X6x1QFv.avif",
+      "_app/immutable/assets/don_quichotte.CqMVdAXP.avif",
+      "_app/immutable/assets/don_quichotte.CyFFj3wu.webp",
+      "_app/immutable/assets/don_quichotte.B8XlaTdT.webp",
+      "_app/immutable/assets/don_quichotte.CoI8VDFx.jpeg",
+      "_app/immutable/assets/don_quichotte.DIb2e8a2.jpeg",
+      "_app/immutable/assets/essais.ZU-fntbJ.avif",
+      "_app/immutable/assets/essais.DJeS51gv.avif",
+      "_app/immutable/assets/essais.CzqC4nKX.webp",
+      "_app/immutable/assets/essais.DWpIT1vL.webp",
+      "_app/immutable/assets/essais.Nio0Be1G.jpeg",
+      "_app/immutable/assets/essais.mweCjXkh.jpeg",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.CqanJHJS.avif",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BbpifiV8.avif",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BG7kZfcR.webp",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.B4uhOw71.webp",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.Dp9-Tj29.jpeg",
+      "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.So2CMT-q.jpeg",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.D_C-49Yt.avif",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.CxR7lyo9.avif",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BNVz9zHa.webp",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.zRkApDaV.webp",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BGRSq9pN.jpeg",
+      "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.DOa6jrXy.jpeg",
+      "_app/immutable/assets/panache.C4eW8aG5.avif",
+      "_app/immutable/assets/panache.C10KQlSM.avif",
+      "_app/immutable/assets/panache.CCL9fMi5.webp",
+      "_app/immutable/assets/panache.DpbD5z7d.webp",
+      "_app/immutable/assets/panache.OzhzmmoN.jpeg",
+      "_app/immutable/assets/panache.DoTWzFIY.jpeg",
+      "_app/immutable/assets/romans.BYTT83Js.avif",
+      "_app/immutable/assets/romans.D1hBWtQj.avif",
+      "_app/immutable/assets/romans.vOCzAkzN.webp",
+      "_app/immutable/assets/romans.DVxRx7Ic.webp",
+      "_app/immutable/assets/romans.Bixx8Xzt.jpeg",
+      "_app/immutable/assets/romans.CqxcbVBy.jpeg",
+      "_app/immutable/assets/SFBs_ergopti_.DvCCTJ2z.avif",
+      "_app/immutable/assets/SFBs_ergopti_.9Y2XPj4Y.avif",
+      "_app/immutable/assets/SFBs_ergopti_.CakxBWv-.webp",
+      "_app/immutable/assets/SFBs_ergopti_.s2pGMebb.webp",
+      "_app/immutable/assets/SFBs_ergopti_.CAbDGdVm.jpeg",
+      "_app/immutable/assets/SFBs_ergopti_.CoAwZ0xb.jpeg",
+      "_app/immutable/assets/SFBs_ergopti.DEWUgADe.avif",
+      "_app/immutable/assets/SFBs_ergopti.BjxSxTLp.avif",
+      "_app/immutable/assets/SFBs_ergopti.DcD_D3Ba.webp",
+      "_app/immutable/assets/SFBs_ergopti.D9h3UlhP.webp",
+      "_app/immutable/assets/SFBs_ergopti.QUbnFNHx.jpeg",
+      "_app/immutable/assets/SFBs_ergopti.zzbhadSM.jpeg",
+      "_app/immutable/assets/ergopti__reduction_SFBs.CxcL5riW.avif",
+      "_app/immutable/assets/ergopti__reduction_SFBs.CLHQtYRc.avif",
+      "_app/immutable/assets/ergopti__reduction_SFBs.D0Q_x0YP.webp",
+      "_app/immutable/assets/ergopti__reduction_SFBs.B_AyWDmt.webp",
+      "_app/immutable/assets/ergopti__reduction_SFBs.LYtLRobf.jpeg",
+      "_app/immutable/assets/ergopti__reduction_SFBs.CROgmLhi.jpeg",
+      "_app/immutable/assets/finger_usage_comparison.CdgD8K4Y.avif",
+      "_app/immutable/assets/finger_usage_comparison.C4ou0b2S.avif",
+      "_app/immutable/assets/finger_usage_comparison.Do17q2MV.webp",
+      "_app/immutable/assets/finger_usage_comparison.DeEXVNH_.webp",
+      "_app/immutable/assets/finger_usage_comparison.HxOfSIOt.jpeg",
+      "_app/immutable/assets/finger_usage_comparison.nCu6Z_cl.jpeg"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/4.js": {
+    "file": "_app/immutable/nodes/4.CxecjYN7.js",
+    "name": "nodes/4",
+    "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_jmuzHjgz.js",
+      "_DoS8hReC.js",
+      "_BTEXbN4H.js",
+      "_lXnObdeJ.js",
+      "_vcCtZRDX.js",
+      "_BWvAs9YZ.js",
+      "_BPWAtOn3.js",
+      "_BIyeAHj5.js",
+      "_C7YJlRmi.js",
+      "_CkKE8iJ9.js",
+      "_0rd7nram.js"
+    ],
+    "css": [
+      "_app/immutable/assets/4.B3EZL9-y.css"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/5.js": {
+    "file": "_app/immutable/nodes/5.CoPpM0Re.js",
+    "name": "nodes/5",
+    "src": ".svelte-kit/generated/client-optimized/nodes/5.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_BWvAs9YZ.js",
+      "_DLF4ccXQ.js",
+      "_CkKE8iJ9.js",
+      "_CZDbLwOt.js",
+      "_BiZdC78W.js",
+      "_B70JfeE_.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/ergopti_plus_windows.EcNTLyz2.avif",
+      "_app/immutable/assets/ergopti_plus_windows.DZscPoEx.avif",
+      "_app/immutable/assets/ergopti_plus_windows.B03WzHM3.webp",
+      "_app/immutable/assets/ergopti_plus_windows.BrL_pqLP.webp",
+      "_app/immutable/assets/ergopti_plus_windows.DKF6nwGY.jpeg",
+      "_app/immutable/assets/ergopti_plus_windows.CdH9R9ea.jpeg",
+      "_app/immutable/assets/ergopti_plus_macos.D09LQbPb.avif",
+      "_app/immutable/assets/ergopti_plus_macos.DzLn5Maw.avif",
+      "_app/immutable/assets/ergopti_plus_macos.B08Cm1l_.webp",
+      "_app/immutable/assets/ergopti_plus_macos.BMpcnlVm.webp",
+      "_app/immutable/assets/ergopti_plus_macos.BnTQhB_M.jpeg",
+      "_app/immutable/assets/ergopti_plus_macos.OfPmFkAh.jpeg"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/6.js": {
+    "file": "_app/immutable/nodes/6.BW0z07Ak.js",
+    "name": "nodes/6",
+    "src": ".svelte-kit/generated/client-optimized/nodes/6.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_BWvAs9YZ.js",
+      "_DLF4ccXQ.js",
+      "_BPWAtOn3.js",
+      "_CkKE8iJ9.js",
+      "_CZDbLwOt.js",
+      "_Dl2NJAAt.js",
+      "_DY6x2aWE.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/7.js": {
+    "file": "_app/immutable/nodes/7.mSK0fnay.js",
+    "name": "nodes/7",
+    "src": ".svelte-kit/generated/client-optimized/nodes/7.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_BWvAs9YZ.js",
+      "_CIuX9R6V.js",
+      "_DLF4ccXQ.js",
+      "_DoS8hReC.js",
+      "_BTEXbN4H.js",
+      "_lXnObdeJ.js",
+      "_DsAeEPd9.js",
+      "_CkKE8iJ9.js",
+      "_BiZdC78W.js",
+      "_DY6x2aWE.js",
+      "_uUVrmSwv.js",
+      "_Dl2NJAAt.js",
+      "_0rd7nram.js",
+      "_BrMzX8rW.js"
+    ],
+    "css": [
+      "_app/immutable/assets/7.D5x94ouR.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/windows_installation_1.CXFSSTuj.avif",
+      "_app/immutable/assets/windows_installation_1.Dunz6aUV.avif",
+      "_app/immutable/assets/windows_installation_1.ChahaDar.webp",
+      "_app/immutable/assets/windows_installation_1.DcJ7_Xks.webp",
+      "_app/immutable/assets/windows_installation_1.DMCwLi05.jpeg",
+      "_app/immutable/assets/windows_installation_1.ClKihwYu.jpeg",
+      "_app/immutable/assets/windows_installation_2.uGtLgs6G.avif",
+      "_app/immutable/assets/windows_installation_2.9U29oU_h.avif",
+      "_app/immutable/assets/windows_installation_2.DYPJiPqm.webp",
+      "_app/immutable/assets/windows_installation_2.k2Z84m7c.webp",
+      "_app/immutable/assets/windows_installation_2.CMBSWqYC.jpeg",
+      "_app/immutable/assets/windows_installation_2.Sp1JlQXt.jpeg",
+      "_app/immutable/assets/windows_installation_3.CUcJ2JPU.avif",
+      "_app/immutable/assets/windows_installation_3.BSq_lpyq.avif",
+      "_app/immutable/assets/windows_installation_3.BoYy8fk8.webp",
+      "_app/immutable/assets/windows_installation_3.DbhTM6cN.webp",
+      "_app/immutable/assets/windows_installation_3.DT6W-_H5.jpeg",
+      "_app/immutable/assets/windows_installation_3.B0Rr5HUe.jpeg",
+      "_app/immutable/assets/windows_installation_4.DBxUPtVe.avif",
+      "_app/immutable/assets/windows_installation_4.6kvefM_s.avif",
+      "_app/immutable/assets/windows_installation_4.B1lCKKr7.webp",
+      "_app/immutable/assets/windows_installation_4.DZTreOm-.webp",
+      "_app/immutable/assets/windows_installation_4.BSslvsGM.jpeg",
+      "_app/immutable/assets/windows_installation_4.rI3pIZoU.jpeg",
+      "_app/immutable/assets/macos_installation_1.DHygMQ5x.avif",
+      "_app/immutable/assets/macos_installation_1.zn854vRT.avif",
+      "_app/immutable/assets/macos_installation_1.dVJIEhtb.webp",
+      "_app/immutable/assets/macos_installation_1.DisDiFvj.webp",
+      "_app/immutable/assets/macos_installation_1.TYG3qrNV.jpeg",
+      "_app/immutable/assets/macos_installation_1.Dil17oqc.jpeg",
+      "_app/immutable/assets/macos_installation_2.By292Pcy.avif",
+      "_app/immutable/assets/macos_installation_2.H5YY4r2F.avif",
+      "_app/immutable/assets/macos_installation_2.DW4_Ep2G.webp",
+      "_app/immutable/assets/macos_installation_2.CjHLxrwF.webp",
+      "_app/immutable/assets/macos_installation_2.DQSIpVHm.jpeg",
+      "_app/immutable/assets/macos_installation_2.Dxd7bzWP.jpeg",
+      "_app/immutable/assets/macos_installation_3.DVZzHwpK.avif",
+      "_app/immutable/assets/macos_installation_3.D_Y3YeSt.avif",
+      "_app/immutable/assets/macos_installation_3.CxcRhjqT.webp",
+      "_app/immutable/assets/macos_installation_3.DOwSe_xv.webp",
+      "_app/immutable/assets/macos_installation_3.B-IzcGiX.jpeg",
+      "_app/immutable/assets/macos_installation_3.raX05133.jpeg",
+      "_app/immutable/assets/macos_installation_4.DI2lmgUz.avif",
+      "_app/immutable/assets/macos_installation_4.xWDU3ZQg.avif",
+      "_app/immutable/assets/macos_installation_4.QrveXJs6.webp",
+      "_app/immutable/assets/macos_installation_4.BRaPl4QW.webp",
+      "_app/immutable/assets/macos_installation_4.BPqzulyw.jpeg",
+      "_app/immutable/assets/macos_installation_4.Cq7_4npA.jpeg",
+      "_app/immutable/assets/macos_language_bar.DB5d2o3-.avif",
+      "_app/immutable/assets/macos_language_bar.CiTWatiD.avif",
+      "_app/immutable/assets/macos_language_bar.BTmcdvvi.webp",
+      "_app/immutable/assets/macos_language_bar.DaUcRIO0.webp",
+      "_app/immutable/assets/macos_language_bar.2Y6Jw5f9.jpeg",
+      "_app/immutable/assets/macos_language_bar.x-dCqrns.jpeg",
+      "_app/immutable/assets/macos_open_bundle.D7os1G9W.avif",
+      "_app/immutable/assets/macos_open_bundle.BVhHiWNI.avif",
+      "_app/immutable/assets/macos_open_bundle.D8D4YMf4.webp",
+      "_app/immutable/assets/macos_open_bundle.27ko_CeJ.webp",
+      "_app/immutable/assets/macos_open_bundle.BVnraMot.jpeg",
+      "_app/immutable/assets/macos_open_bundle.DJHe603H.jpeg"
+    ]
+  },
+  "_0rd7nram.js": {
+    "file": "_app/immutable/chunks/0rd7nram.js",
+    "name": "getGitHubRelease",
+    "imports": [
+      "_BrMzX8rW.js"
+    ]
+  },
+  "_500_common_words_in_prose.BC3_3unJ.webp": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.BC3_3unJ.webp",
+    "src": "_500_common_words_in_prose.BC3_3unJ.webp"
+  },
+  "_500_common_words_in_prose.BP0GAQmG.avif": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.BP0GAQmG.avif",
+    "src": "_500_common_words_in_prose.BP0GAQmG.avif"
+  },
+  "_500_common_words_in_prose.Bec34zpr.jpeg": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.Bec34zpr.jpeg",
+    "src": "_500_common_words_in_prose.Bec34zpr.jpeg"
+  },
+  "_500_common_words_in_prose.C2AjYsiv.avif": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.C2AjYsiv.avif",
+    "src": "_500_common_words_in_prose.C2AjYsiv.avif"
+  },
+  "_500_common_words_in_prose.Cwdrwho3.webp": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.Cwdrwho3.webp",
+    "src": "_500_common_words_in_prose.Cwdrwho3.webp"
+  },
+  "_500_common_words_in_prose.DSt40Pjd.avif": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.DSt40Pjd.avif",
+    "src": "_500_common_words_in_prose.DSt40Pjd.avif"
+  },
+  "_500_common_words_in_prose.Do484qGk.avif": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.Do484qGk.avif",
+    "src": "_500_common_words_in_prose.Do484qGk.avif"
+  },
+  "_500_common_words_in_prose.DpHFjK2s.webp": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.DpHFjK2s.webp",
+    "src": "_500_common_words_in_prose.DpHFjK2s.webp"
+  },
+  "_500_common_words_in_prose.DwlymLGP.webp": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.DwlymLGP.webp",
+    "src": "_500_common_words_in_prose.DwlymLGP.webp"
+  },
+  "_500_common_words_in_prose.cRqI8GBc.jpeg": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.cRqI8GBc.jpeg",
+    "src": "_500_common_words_in_prose.cRqI8GBc.jpeg"
+  },
+  "_500_common_words_in_prose.dfHvlfyB.jpeg": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.dfHvlfyB.jpeg",
+    "src": "_500_common_words_in_prose.dfHvlfyB.jpeg"
+  },
+  "_500_common_words_in_prose.rdKJRzza.jpeg": {
+    "file": "_app/immutable/assets/500_common_words_in_prose.rdKJRzza.jpeg",
+    "src": "_500_common_words_in_prose.rdKJRzza.jpeg"
+  },
+  "_B70JfeE_.js": {
+    "file": "_app/immutable/chunks/B70JfeE_.js",
+    "name": "KeyboardControls",
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_BWvAs9YZ.js",
+      "_oZPnEnlq.js",
+      "_DoS8hReC.js",
+      "_BTEXbN4H.js",
+      "_CIuX9R6V.js",
+      "_DY6x2aWE.js",
+      "_lXnObdeJ.js",
+      "_DsAeEPd9.js"
+    ],
+    "css": [
+      "_app/immutable/assets/KeyboardControls.DImc0yao.css"
+    ]
+  },
+  "_BIyeAHj5.js": {
+    "file": "_app/immutable/chunks/BIyeAHj5.js",
+    "name": "style",
+    "imports": [
+      "_C7YJlRmi.js",
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_BJlL0-Sw.js": {
+    "file": "_app/immutable/chunks/BJlL0-Sw.js",
+    "name": "disclose-version",
+    "imports": [
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_BPWAtOn3.js": {
+    "file": "_app/immutable/chunks/BPWAtOn3.js",
+    "name": "class",
+    "imports": [
+      "_C7YJlRmi.js",
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_BTEXbN4H.js": {
+    "file": "_app/immutable/chunks/BTEXbN4H.js",
+    "name": "if",
+    "imports": [
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_BTyc-JLB.js": {
+    "file": "_app/immutable/chunks/BTyc-JLB.js",
+    "name": "legacy",
+    "imports": [
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_BWvAs9YZ.js": {
+    "file": "_app/immutable/chunks/BWvAs9YZ.js",
+    "name": "Ergopti",
+    "imports": [
+      "_jmuzHjgz.js",
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js"
+    ]
+  },
+  "_BiZdC78W.js": {
+    "file": "_app/immutable/chunks/BiZdC78W.js",
+    "name": "KeyboardBasis",
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_lXnObdeJ.js",
+      "_BWvAs9YZ.js",
+      "_BIyeAHj5.js",
+      "_CIuX9R6V.js",
+      "_oZPnEnlq.js",
+      "_DY6x2aWE.js",
+      "_uUVrmSwv.js"
+    ],
+    "css": [
+      "_app/immutable/assets/KeyboardBasis.CGkxsXn2.css"
+    ]
+  },
+  "_BrMzX8rW.js": {
+    "file": "_app/immutable/chunks/BrMzX8rW.js",
+    "name": "isDev"
+  },
+  "_C7YJlRmi.js": {
+    "file": "_app/immutable/chunks/C7YJlRmi.js",
+    "name": "attributes"
+  },
+  "_CF79PsVf.js": {
+    "file": "_app/immutable/chunks/CF79PsVf.js",
+    "name": "entry",
+    "imports": [
+      "_jmuzHjgz.js",
+      "_uUVrmSwv.js",
+      "_Dl2NJAAt.js"
+    ]
+  },
+  "_CIuX9R6V.js": {
+    "file": "_app/immutable/chunks/CIuX9R6V.js",
+    "name": "lifecycle",
+    "imports": [
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_CZDbLwOt.js": {
+    "file": "_app/immutable/chunks/CZDbLwOt.js",
+    "name": "SFB",
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_DLF4ccXQ.js"
+    ]
+  },
+  "_CkKE8iJ9.js": {
+    "file": "_app/immutable/chunks/CkKE8iJ9.js",
+    "name": "ErgoptiPlus",
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_BWvAs9YZ.js"
+    ]
+  },
+  "_D3TV2xAF.js": {
+    "file": "_app/immutable/chunks/D3TV2xAF.js",
+    "name": "_layout",
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_DoS8hReC.js",
+      "_BTEXbN4H.js",
+      "_DY6x2aWE.js",
+      "_BWvAs9YZ.js",
+      "_BPWAtOn3.js",
+      "_BIyeAHj5.js",
+      "_CIuX9R6V.js",
+      "_oZPnEnlq.js",
+      "_lXnObdeJ.js",
+      "_DsAeEPd9.js",
+      "_CF79PsVf.js",
+      "_Dl2NJAAt.js",
+      "_BiZdC78W.js",
+      "_B70JfeE_.js",
+      "_BrMzX8rW.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.CDwOY5Gt.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/icomoon.DzHHrZMD.eot",
+      "_app/immutable/assets/icomoon.CbQiC5IS.ttf",
+      "_app/immutable/assets/icomoon.DUbCb_eQ.woff",
+      "_app/immutable/assets/icomoon.Dkxdpf40.svg"
+    ]
+  },
+  "_DLF4ccXQ.js": {
+    "file": "_app/immutable/chunks/DLF4ccXQ.js",
+    "name": "PageWrapper",
+    "imports": [
+      "_BJlL0-Sw.js",
+      "_BTyc-JLB.js",
+      "_jmuzHjgz.js",
+      "_DY6x2aWE.js",
+      "_BWvAs9YZ.js"
+    ],
+    "css": [
+      "_app/immutable/assets/PageWrapper.B0WO4h2k.css"
+    ]
+  },
+  "_DY6x2aWE.js": {
+    "file": "_app/immutable/chunks/DY6x2aWE.js",
+    "name": "stores_infos",
+    "imports": [
+      "_jmuzHjgz.js",
+      "_uUVrmSwv.js"
+    ]
+  },
+  "_Dl2NJAAt.js": {
+    "file": "_app/immutable/chunks/Dl2NJAAt.js",
+    "name": "state.svelte",
+    "imports": [
+      "_jmuzHjgz.js",
+      "_uUVrmSwv.js"
+    ]
+  },
+  "_DoS8hReC.js": {
+    "file": "_app/immutable/chunks/DoS8hReC.js",
+    "name": "render",
+    "imports": [
+      "_jmuzHjgz.js",
+      "_BJlL0-Sw.js"
+    ]
+  },
+  "_DsAeEPd9.js": {
+    "file": "_app/immutable/chunks/DsAeEPd9.js",
+    "name": "select",
+    "imports": [
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_KeyboardBasis.CGkxsXn2.css": {
+    "file": "_app/immutable/assets/KeyboardBasis.CGkxsXn2.css",
+    "src": "_KeyboardBasis.CGkxsXn2.css"
+  },
+  "_KeyboardControls.DImc0yao.css": {
+    "file": "_app/immutable/assets/KeyboardControls.DImc0yao.css",
+    "src": "_KeyboardControls.DImc0yao.css"
+  },
+  "_PPVm8Dsz.js": {
+    "file": "_app/immutable/chunks/PPVm8Dsz.js",
+    "name": "preload-helper"
+  },
+  "_PageWrapper.B0WO4h2k.css": {
+    "file": "_app/immutable/assets/PageWrapper.B0WO4h2k.css",
+    "src": "_PageWrapper.B0WO4h2k.css"
+  },
+  "_SFBs_ergopti.BjxSxTLp.avif": {
+    "file": "_app/immutable/assets/SFBs_ergopti.BjxSxTLp.avif",
+    "src": "_SFBs_ergopti.BjxSxTLp.avif"
+  },
+  "_SFBs_ergopti.D9h3UlhP.webp": {
+    "file": "_app/immutable/assets/SFBs_ergopti.D9h3UlhP.webp",
+    "src": "_SFBs_ergopti.D9h3UlhP.webp"
+  },
+  "_SFBs_ergopti.DEWUgADe.avif": {
+    "file": "_app/immutable/assets/SFBs_ergopti.DEWUgADe.avif",
+    "src": "_SFBs_ergopti.DEWUgADe.avif"
+  },
+  "_SFBs_ergopti.DcD_D3Ba.webp": {
+    "file": "_app/immutable/assets/SFBs_ergopti.DcD_D3Ba.webp",
+    "src": "_SFBs_ergopti.DcD_D3Ba.webp"
+  },
+  "_SFBs_ergopti.QUbnFNHx.jpeg": {
+    "file": "_app/immutable/assets/SFBs_ergopti.QUbnFNHx.jpeg",
+    "src": "_SFBs_ergopti.QUbnFNHx.jpeg"
+  },
+  "_SFBs_ergopti.zzbhadSM.jpeg": {
+    "file": "_app/immutable/assets/SFBs_ergopti.zzbhadSM.jpeg",
+    "src": "_SFBs_ergopti.zzbhadSM.jpeg"
+  },
+  "_SFBs_ergopti_.9Y2XPj4Y.avif": {
+    "file": "_app/immutable/assets/SFBs_ergopti_.9Y2XPj4Y.avif",
+    "src": "_SFBs_ergopti_.9Y2XPj4Y.avif"
+  },
+  "_SFBs_ergopti_.CAbDGdVm.jpeg": {
+    "file": "_app/immutable/assets/SFBs_ergopti_.CAbDGdVm.jpeg",
+    "src": "_SFBs_ergopti_.CAbDGdVm.jpeg"
+  },
+  "_SFBs_ergopti_.CakxBWv-.webp": {
+    "file": "_app/immutable/assets/SFBs_ergopti_.CakxBWv-.webp",
+    "src": "_SFBs_ergopti_.CakxBWv-.webp"
+  },
+  "_SFBs_ergopti_.CoAwZ0xb.jpeg": {
+    "file": "_app/immutable/assets/SFBs_ergopti_.CoAwZ0xb.jpeg",
+    "src": "_SFBs_ergopti_.CoAwZ0xb.jpeg"
+  },
+  "_SFBs_ergopti_.DvCCTJ2z.avif": {
+    "file": "_app/immutable/assets/SFBs_ergopti_.DvCCTJ2z.avif",
+    "src": "_SFBs_ergopti_.DvCCTJ2z.avif"
+  },
+  "_SFBs_ergopti_.s2pGMebb.webp": {
+    "file": "_app/immutable/assets/SFBs_ergopti_.s2pGMebb.webp",
+    "src": "_SFBs_ergopti_.s2pGMebb.webp"
+  },
+  "__layout.CDwOY5Gt.css": {
+    "file": "_app/immutable/assets/_layout.CDwOY5Gt.css",
+    "src": "__layout.CDwOY5Gt.css"
+  },
+  "_basic_words.BD7ZV88O.jpeg": {
+    "file": "_app/immutable/assets/basic_words.BD7ZV88O.jpeg",
+    "src": "_basic_words.BD7ZV88O.jpeg"
+  },
+  "_basic_words.BDQKKDZH.webp": {
+    "file": "_app/immutable/assets/basic_words.BDQKKDZH.webp",
+    "src": "_basic_words.BDQKKDZH.webp"
+  },
+  "_basic_words.BwTM9kPf.avif": {
+    "file": "_app/immutable/assets/basic_words.BwTM9kPf.avif",
+    "src": "_basic_words.BwTM9kPf.avif"
+  },
+  "_basic_words.CKnORNAP.jpeg": {
+    "file": "_app/immutable/assets/basic_words.CKnORNAP.jpeg",
+    "src": "_basic_words.CKnORNAP.jpeg"
+  },
+  "_basic_words.D5JadLDb.avif": {
+    "file": "_app/immutable/assets/basic_words.D5JadLDb.avif",
+    "src": "_basic_words.D5JadLDb.avif"
+  },
+  "_basic_words.DL6vl5Le.avif": {
+    "file": "_app/immutable/assets/basic_words.DL6vl5Le.avif",
+    "src": "_basic_words.DL6vl5Le.avif"
+  },
+  "_basic_words.DU9lm-y4.jpeg": {
+    "file": "_app/immutable/assets/basic_words.DU9lm-y4.jpeg",
+    "src": "_basic_words.DU9lm-y4.jpeg"
+  },
+  "_basic_words.DXwLkMr5.webp": {
+    "file": "_app/immutable/assets/basic_words.DXwLkMr5.webp",
+    "src": "_basic_words.DXwLkMr5.webp"
+  },
+  "_basic_words.F7exbCrT.webp": {
+    "file": "_app/immutable/assets/basic_words.F7exbCrT.webp",
+    "src": "_basic_words.F7exbCrT.webp"
+  },
+  "_basic_words.LKkvJs8q.webp": {
+    "file": "_app/immutable/assets/basic_words.LKkvJs8q.webp",
+    "src": "_basic_words.LKkvJs8q.webp"
+  },
+  "_basic_words.VVxjptu_.avif": {
+    "file": "_app/immutable/assets/basic_words.VVxjptu_.avif",
+    "src": "_basic_words.VVxjptu_.avif"
+  },
+  "_basic_words.q89TYOlz.jpeg": {
+    "file": "_app/immutable/assets/basic_words.q89TYOlz.jpeg",
+    "src": "_basic_words.q89TYOlz.jpeg"
+  },
+  "_chained_code_bigrams_7.B7Md7mZ1.jpeg": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.B7Md7mZ1.jpeg",
+    "src": "_chained_code_bigrams_7.B7Md7mZ1.jpeg"
+  },
+  "_chained_code_bigrams_7.BYvN9kpw.jpeg": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.BYvN9kpw.jpeg",
+    "src": "_chained_code_bigrams_7.BYvN9kpw.jpeg"
+  },
+  "_chained_code_bigrams_7.BdySPUmb.jpeg": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.BdySPUmb.jpeg",
+    "src": "_chained_code_bigrams_7.BdySPUmb.jpeg"
+  },
+  "_chained_code_bigrams_7.Bpaut6Nf.jpeg": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.Bpaut6Nf.jpeg",
+    "src": "_chained_code_bigrams_7.Bpaut6Nf.jpeg"
+  },
+  "_chained_code_bigrams_7.CfbarafZ.avif": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.CfbarafZ.avif",
+    "src": "_chained_code_bigrams_7.CfbarafZ.avif"
+  },
+  "_chained_code_bigrams_7.CtAXe1Lw.avif": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.CtAXe1Lw.avif",
+    "src": "_chained_code_bigrams_7.CtAXe1Lw.avif"
+  },
+  "_chained_code_bigrams_7.DMEki_GC.webp": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.DMEki_GC.webp",
+    "src": "_chained_code_bigrams_7.DMEki_GC.webp"
+  },
+  "_chained_code_bigrams_7.DmZsYScD.avif": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.DmZsYScD.avif",
+    "src": "_chained_code_bigrams_7.DmZsYScD.avif"
+  },
+  "_chained_code_bigrams_7.DxXUYXzG.avif": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.DxXUYXzG.avif",
+    "src": "_chained_code_bigrams_7.DxXUYXzG.avif"
+  },
+  "_chained_code_bigrams_7.oA051cX-.webp": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.oA051cX-.webp",
+    "src": "_chained_code_bigrams_7.oA051cX-.webp"
+  },
+  "_chained_code_bigrams_7.z9cPAlET.webp": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.z9cPAlET.webp",
+    "src": "_chained_code_bigrams_7.z9cPAlET.webp"
+  },
+  "_chained_code_bigrams_7.zVZu3jaY.webp": {
+    "file": "_app/immutable/assets/chained_code_bigrams_7.zVZu3jaY.webp",
+    "src": "_chained_code_bigrams_7.zVZu3jaY.webp"
+  },
+  "_chained_english_bigrams_7.5HUWuwdm.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.5HUWuwdm.jpeg",
+    "src": "_chained_english_bigrams_7.5HUWuwdm.jpeg"
+  },
+  "_chained_english_bigrams_7.B5forMZT.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.B5forMZT.jpeg",
+    "src": "_chained_english_bigrams_7.B5forMZT.jpeg"
+  },
+  "_chained_english_bigrams_7.BKEFxpEy.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.BKEFxpEy.webp",
+    "src": "_chained_english_bigrams_7.BKEFxpEy.webp"
+  },
+  "_chained_english_bigrams_7.BhZOCXYC.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.BhZOCXYC.jpeg",
+    "src": "_chained_english_bigrams_7.BhZOCXYC.jpeg"
+  },
+  "_chained_english_bigrams_7.C1QEmGKB.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.C1QEmGKB.avif",
+    "src": "_chained_english_bigrams_7.C1QEmGKB.avif"
+  },
+  "_chained_english_bigrams_7.CFh94FzX.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.CFh94FzX.avif",
+    "src": "_chained_english_bigrams_7.CFh94FzX.avif"
+  },
+  "_chained_english_bigrams_7.CIKw4hJN.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.CIKw4hJN.jpeg",
+    "src": "_chained_english_bigrams_7.CIKw4hJN.jpeg"
+  },
+  "_chained_english_bigrams_7.D4s18Zy5.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.D4s18Zy5.webp",
+    "src": "_chained_english_bigrams_7.D4s18Zy5.webp"
+  },
+  "_chained_english_bigrams_7.D8NSirP0.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.D8NSirP0.avif",
+    "src": "_chained_english_bigrams_7.D8NSirP0.avif"
+  },
+  "_chained_english_bigrams_7.DOCEIRph.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.DOCEIRph.webp",
+    "src": "_chained_english_bigrams_7.DOCEIRph.webp"
+  },
+  "_chained_english_bigrams_7.NF-ULo2y.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.NF-ULo2y.webp",
+    "src": "_chained_english_bigrams_7.NF-ULo2y.webp"
+  },
+  "_chained_english_bigrams_7.rHJ5hdvM.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_7.rHJ5hdvM.avif",
+    "src": "_chained_english_bigrams_7.rHJ5hdvM.avif"
+  },
+  "_chained_english_bigrams_9.4ZTWGJBO.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.4ZTWGJBO.avif",
+    "src": "_chained_english_bigrams_9.4ZTWGJBO.avif"
+  },
+  "_chained_english_bigrams_9.9HVPSefS.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.9HVPSefS.webp",
+    "src": "_chained_english_bigrams_9.9HVPSefS.webp"
+  },
+  "_chained_english_bigrams_9.BZbx674j.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.BZbx674j.avif",
+    "src": "_chained_english_bigrams_9.BZbx674j.avif"
+  },
+  "_chained_english_bigrams_9.CInE2BO5.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.CInE2BO5.webp",
+    "src": "_chained_english_bigrams_9.CInE2BO5.webp"
+  },
+  "_chained_english_bigrams_9.Clz8EuTm.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.Clz8EuTm.avif",
+    "src": "_chained_english_bigrams_9.Clz8EuTm.avif"
+  },
+  "_chained_english_bigrams_9.CsXZ1OJy.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.CsXZ1OJy.jpeg",
+    "src": "_chained_english_bigrams_9.CsXZ1OJy.jpeg"
+  },
+  "_chained_english_bigrams_9.DLkRVlsz.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.DLkRVlsz.jpeg",
+    "src": "_chained_english_bigrams_9.DLkRVlsz.jpeg"
+  },
+  "_chained_english_bigrams_9.Da-UHrsv.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.Da-UHrsv.webp",
+    "src": "_chained_english_bigrams_9.Da-UHrsv.webp"
+  },
+  "_chained_english_bigrams_9.DptXzaly.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.DptXzaly.jpeg",
+    "src": "_chained_english_bigrams_9.DptXzaly.jpeg"
+  },
+  "_chained_english_bigrams_9.FxIbJUFK.avif": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.FxIbJUFK.avif",
+    "src": "_chained_english_bigrams_9.FxIbJUFK.avif"
+  },
+  "_chained_english_bigrams_9.PSMuy7NS.webp": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.PSMuy7NS.webp",
+    "src": "_chained_english_bigrams_9.PSMuy7NS.webp"
+  },
+  "_chained_english_bigrams_9.le-DSpmr.jpeg": {
+    "file": "_app/immutable/assets/chained_english_bigrams_9.le-DSpmr.jpeg",
+    "src": "_chained_english_bigrams_9.le-DSpmr.jpeg"
+  },
+  "_chained_proglish_bigrams_7.1dFj1phK.avif": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.1dFj1phK.avif",
+    "src": "_chained_proglish_bigrams_7.1dFj1phK.avif"
+  },
+  "_chained_proglish_bigrams_7.BBFG40TD.jpeg": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.BBFG40TD.jpeg",
+    "src": "_chained_proglish_bigrams_7.BBFG40TD.jpeg"
+  },
+  "_chained_proglish_bigrams_7.BePLhDBG.avif": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.BePLhDBG.avif",
+    "src": "_chained_proglish_bigrams_7.BePLhDBG.avif"
+  },
+  "_chained_proglish_bigrams_7.BlvsRoWV.webp": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.BlvsRoWV.webp",
+    "src": "_chained_proglish_bigrams_7.BlvsRoWV.webp"
+  },
+  "_chained_proglish_bigrams_7.BpKbv5YH.avif": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.BpKbv5YH.avif",
+    "src": "_chained_proglish_bigrams_7.BpKbv5YH.avif"
+  },
+  "_chained_proglish_bigrams_7.C90TV9uh.webp": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.C90TV9uh.webp",
+    "src": "_chained_proglish_bigrams_7.C90TV9uh.webp"
+  },
+  "_chained_proglish_bigrams_7.CTxzaehW.jpeg": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.CTxzaehW.jpeg",
+    "src": "_chained_proglish_bigrams_7.CTxzaehW.jpeg"
+  },
+  "_chained_proglish_bigrams_7.DRyu9ZnR.webp": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.DRyu9ZnR.webp",
+    "src": "_chained_proglish_bigrams_7.DRyu9ZnR.webp"
+  },
+  "_chained_proglish_bigrams_7.DcP__XsA.jpeg": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.DcP__XsA.jpeg",
+    "src": "_chained_proglish_bigrams_7.DcP__XsA.jpeg"
+  },
+  "_chained_proglish_bigrams_7.JHliEOil.jpeg": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.JHliEOil.jpeg",
+    "src": "_chained_proglish_bigrams_7.JHliEOil.jpeg"
+  },
+  "_chained_proglish_bigrams_7.XEvNc_pC.webp": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.XEvNc_pC.webp",
+    "src": "_chained_proglish_bigrams_7.XEvNc_pC.webp"
+  },
+  "_chained_proglish_bigrams_7.ylV33CDC.avif": {
+    "file": "_app/immutable/assets/chained_proglish_bigrams_7.ylV33CDC.avif",
+    "src": "_chained_proglish_bigrams_7.ylV33CDC.avif"
+  },
+  "_common_english_words.5HfaX84y.avif": {
+    "file": "_app/immutable/assets/common_english_words.5HfaX84y.avif",
+    "src": "_common_english_words.5HfaX84y.avif"
+  },
+  "_common_english_words.8kVgScgh.webp": {
+    "file": "_app/immutable/assets/common_english_words.8kVgScgh.webp",
+    "src": "_common_english_words.8kVgScgh.webp"
+  },
+  "_common_english_words.AUQ5qZ7w.webp": {
+    "file": "_app/immutable/assets/common_english_words.AUQ5qZ7w.webp",
+    "src": "_common_english_words.AUQ5qZ7w.webp"
+  },
+  "_common_english_words.BrEufku8.jpeg": {
+    "file": "_app/immutable/assets/common_english_words.BrEufku8.jpeg",
+    "src": "_common_english_words.BrEufku8.jpeg"
+  },
+  "_common_english_words.Byqy91PH.webp": {
+    "file": "_app/immutable/assets/common_english_words.Byqy91PH.webp",
+    "src": "_common_english_words.Byqy91PH.webp"
+  },
+  "_common_english_words.C3V695Be.webp": {
+    "file": "_app/immutable/assets/common_english_words.C3V695Be.webp",
+    "src": "_common_english_words.C3V695Be.webp"
+  },
+  "_common_english_words.CGIwTpfC.jpeg": {
+    "file": "_app/immutable/assets/common_english_words.CGIwTpfC.jpeg",
+    "src": "_common_english_words.CGIwTpfC.jpeg"
+  },
+  "_common_english_words.CTbfhZlt.jpeg": {
+    "file": "_app/immutable/assets/common_english_words.CTbfhZlt.jpeg",
+    "src": "_common_english_words.CTbfhZlt.jpeg"
+  },
+  "_common_english_words.Cm_rn8H8.avif": {
+    "file": "_app/immutable/assets/common_english_words.Cm_rn8H8.avif",
+    "src": "_common_english_words.Cm_rn8H8.avif"
+  },
+  "_common_english_words.DGjOk4Lg.jpeg": {
+    "file": "_app/immutable/assets/common_english_words.DGjOk4Lg.jpeg",
+    "src": "_common_english_words.DGjOk4Lg.jpeg"
+  },
+  "_common_english_words.DvabB2gQ.avif": {
+    "file": "_app/immutable/assets/common_english_words.DvabB2gQ.avif",
+    "src": "_common_english_words.DvabB2gQ.avif"
+  },
+  "_common_english_words.n6hedY6m.avif": {
+    "file": "_app/immutable/assets/common_english_words.n6hedY6m.avif",
+    "src": "_common_english_words.n6hedY6m.avif"
+  },
+  "_common_sat_words.-BWCncY6.webp": {
+    "file": "_app/immutable/assets/common_sat_words.-BWCncY6.webp",
+    "src": "_common_sat_words.-BWCncY6.webp"
+  },
+  "_common_sat_words.BLqDkoFg.jpeg": {
+    "file": "_app/immutable/assets/common_sat_words.BLqDkoFg.jpeg",
+    "src": "_common_sat_words.BLqDkoFg.jpeg"
+  },
+  "_common_sat_words.BV58lE3-.avif": {
+    "file": "_app/immutable/assets/common_sat_words.BV58lE3-.avif",
+    "src": "_common_sat_words.BV58lE3-.avif"
+  },
+  "_common_sat_words.Cq_F8KPP.jpeg": {
+    "file": "_app/immutable/assets/common_sat_words.Cq_F8KPP.jpeg",
+    "src": "_common_sat_words.Cq_F8KPP.jpeg"
+  },
+  "_common_sat_words.D5YpUjdg.webp": {
+    "file": "_app/immutable/assets/common_sat_words.D5YpUjdg.webp",
+    "src": "_common_sat_words.D5YpUjdg.webp"
+  },
+  "_common_sat_words.DRLn7WDU.avif": {
+    "file": "_app/immutable/assets/common_sat_words.DRLn7WDU.avif",
+    "src": "_common_sat_words.DRLn7WDU.avif"
+  },
+  "_common_sat_words.DaQt-GAZ.jpeg": {
+    "file": "_app/immutable/assets/common_sat_words.DaQt-GAZ.jpeg",
+    "src": "_common_sat_words.DaQt-GAZ.jpeg"
+  },
+  "_common_sat_words.Dq6Ianwx.jpeg": {
+    "file": "_app/immutable/assets/common_sat_words.Dq6Ianwx.jpeg",
+    "src": "_common_sat_words.Dq6Ianwx.jpeg"
+  },
+  "_common_sat_words.DtV3VgWn.webp": {
+    "file": "_app/immutable/assets/common_sat_words.DtV3VgWn.webp",
+    "src": "_common_sat_words.DtV3VgWn.webp"
+  },
+  "_common_sat_words.DtcV-SOp.avif": {
+    "file": "_app/immutable/assets/common_sat_words.DtcV-SOp.avif",
+    "src": "_common_sat_words.DtcV-SOp.avif"
+  },
+  "_common_sat_words.I9-C-5Nh.avif": {
+    "file": "_app/immutable/assets/common_sat_words.I9-C-5Nh.avif",
+    "src": "_common_sat_words.I9-C-5Nh.avif"
+  },
+  "_common_sat_words.vxksLkN_.webp": {
+    "file": "_app/immutable/assets/common_sat_words.vxksLkN_.webp",
+    "src": "_common_sat_words.vxksLkN_.webp"
+  },
+  "_corpus_johnix_mails.2wE1HS4-.avif": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.2wE1HS4-.avif",
+    "src": "_corpus_johnix_mails.2wE1HS4-.avif"
+  },
+  "_corpus_johnix_mails.BG43jI0m.jpeg": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.BG43jI0m.jpeg",
+    "src": "_corpus_johnix_mails.BG43jI0m.jpeg"
+  },
+  "_corpus_johnix_mails.BLD_gVeu.webp": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.BLD_gVeu.webp",
+    "src": "_corpus_johnix_mails.BLD_gVeu.webp"
+  },
+  "_corpus_johnix_mails.CBzRoD7x.jpeg": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.CBzRoD7x.jpeg",
+    "src": "_corpus_johnix_mails.CBzRoD7x.jpeg"
+  },
+  "_corpus_johnix_mails.CDVYlZxL.avif": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.CDVYlZxL.avif",
+    "src": "_corpus_johnix_mails.CDVYlZxL.avif"
+  },
+  "_corpus_johnix_mails.CN69jq5y.jpeg": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.CN69jq5y.jpeg",
+    "src": "_corpus_johnix_mails.CN69jq5y.jpeg"
+  },
+  "_corpus_johnix_mails.Cfk0tLeq.webp": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.Cfk0tLeq.webp",
+    "src": "_corpus_johnix_mails.Cfk0tLeq.webp"
+  },
+  "_corpus_johnix_mails.D8hAZ4nB.jpeg": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.D8hAZ4nB.jpeg",
+    "src": "_corpus_johnix_mails.D8hAZ4nB.jpeg"
+  },
+  "_corpus_johnix_mails.DUlGgDt4.webp": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.DUlGgDt4.webp",
+    "src": "_corpus_johnix_mails.DUlGgDt4.webp"
+  },
+  "_corpus_johnix_mails.Dz_l80yd.avif": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.Dz_l80yd.avif",
+    "src": "_corpus_johnix_mails.Dz_l80yd.avif"
+  },
+  "_corpus_johnix_mails.LeNZbS2u.avif": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.LeNZbS2u.avif",
+    "src": "_corpus_johnix_mails.LeNZbS2u.avif"
+  },
+  "_corpus_johnix_mails.zd_1yMU8.webp": {
+    "file": "_app/immutable/assets/corpus_johnix_mails.zd_1yMU8.webp",
+    "src": "_corpus_johnix_mails.zd_1yMU8.webp"
+  },
+  "_corpus_nemolivier.6BE6Mg_A.webp": {
+    "file": "_app/immutable/assets/corpus_nemolivier.6BE6Mg_A.webp",
+    "src": "_corpus_nemolivier.6BE6Mg_A.webp"
+  },
+  "_corpus_nemolivier.BEv5RCyU.jpeg": {
+    "file": "_app/immutable/assets/corpus_nemolivier.BEv5RCyU.jpeg",
+    "src": "_corpus_nemolivier.BEv5RCyU.jpeg"
+  },
+  "_corpus_nemolivier.BZcUqY8a.avif": {
+    "file": "_app/immutable/assets/corpus_nemolivier.BZcUqY8a.avif",
+    "src": "_corpus_nemolivier.BZcUqY8a.avif"
+  },
+  "_corpus_nemolivier.BoUB4guK.avif": {
+    "file": "_app/immutable/assets/corpus_nemolivier.BoUB4guK.avif",
+    "src": "_corpus_nemolivier.BoUB4guK.avif"
+  },
+  "_corpus_nemolivier.BqXnzRqO.jpeg": {
+    "file": "_app/immutable/assets/corpus_nemolivier.BqXnzRqO.jpeg",
+    "src": "_corpus_nemolivier.BqXnzRqO.jpeg"
+  },
+  "_corpus_nemolivier.BuIcZXmM.jpeg": {
+    "file": "_app/immutable/assets/corpus_nemolivier.BuIcZXmM.jpeg",
+    "src": "_corpus_nemolivier.BuIcZXmM.jpeg"
+  },
+  "_corpus_nemolivier.COI1BIC9.webp": {
+    "file": "_app/immutable/assets/corpus_nemolivier.COI1BIC9.webp",
+    "src": "_corpus_nemolivier.COI1BIC9.webp"
+  },
+  "_corpus_nemolivier.CVlsIW5-.avif": {
+    "file": "_app/immutable/assets/corpus_nemolivier.CVlsIW5-.avif",
+    "src": "_corpus_nemolivier.CVlsIW5-.avif"
+  },
+  "_corpus_nemolivier.D3VVzcc4.webp": {
+    "file": "_app/immutable/assets/corpus_nemolivier.D3VVzcc4.webp",
+    "src": "_corpus_nemolivier.D3VVzcc4.webp"
+  },
+  "_corpus_nemolivier.DFc5asQQ.jpeg": {
+    "file": "_app/immutable/assets/corpus_nemolivier.DFc5asQQ.jpeg",
+    "src": "_corpus_nemolivier.DFc5asQQ.jpeg"
+  },
+  "_corpus_nemolivier.DH1u17qY.avif": {
+    "file": "_app/immutable/assets/corpus_nemolivier.DH1u17qY.avif",
+    "src": "_corpus_nemolivier.DH1u17qY.avif"
+  },
+  "_corpus_nemolivier.wbxCMwLT.webp": {
+    "file": "_app/immutable/assets/corpus_nemolivier.wbxCMwLT.webp",
+    "src": "_corpus_nemolivier.wbxCMwLT.webp"
+  },
+  "_data_munging_with_perl.B5yYd4cn.webp": {
+    "file": "_app/immutable/assets/data_munging_with_perl.B5yYd4cn.webp",
+    "src": "_data_munging_with_perl.B5yYd4cn.webp"
+  },
+  "_data_munging_with_perl.BnyODO6y.webp": {
+    "file": "_app/immutable/assets/data_munging_with_perl.BnyODO6y.webp",
+    "src": "_data_munging_with_perl.BnyODO6y.webp"
+  },
+  "_data_munging_with_perl.BrPhDnLS.jpeg": {
+    "file": "_app/immutable/assets/data_munging_with_perl.BrPhDnLS.jpeg",
+    "src": "_data_munging_with_perl.BrPhDnLS.jpeg"
+  },
+  "_data_munging_with_perl.BuXVPbTz.avif": {
+    "file": "_app/immutable/assets/data_munging_with_perl.BuXVPbTz.avif",
+    "src": "_data_munging_with_perl.BuXVPbTz.avif"
+  },
+  "_data_munging_with_perl.CohykFHj.jpeg": {
+    "file": "_app/immutable/assets/data_munging_with_perl.CohykFHj.jpeg",
+    "src": "_data_munging_with_perl.CohykFHj.jpeg"
+  },
+  "_data_munging_with_perl.CztU3rXm.jpeg": {
+    "file": "_app/immutable/assets/data_munging_with_perl.CztU3rXm.jpeg",
+    "src": "_data_munging_with_perl.CztU3rXm.jpeg"
+  },
+  "_data_munging_with_perl.DI_y6s01.webp": {
+    "file": "_app/immutable/assets/data_munging_with_perl.DI_y6s01.webp",
+    "src": "_data_munging_with_perl.DI_y6s01.webp"
+  },
+  "_data_munging_with_perl.DOqfl8MO.jpeg": {
+    "file": "_app/immutable/assets/data_munging_with_perl.DOqfl8MO.jpeg",
+    "src": "_data_munging_with_perl.DOqfl8MO.jpeg"
+  },
+  "_data_munging_with_perl.DXbY3QpH.webp": {
+    "file": "_app/immutable/assets/data_munging_with_perl.DXbY3QpH.webp",
+    "src": "_data_munging_with_perl.DXbY3QpH.webp"
+  },
+  "_data_munging_with_perl.DaW-4Zvu.avif": {
+    "file": "_app/immutable/assets/data_munging_with_perl.DaW-4Zvu.avif",
+    "src": "_data_munging_with_perl.DaW-4Zvu.avif"
+  },
+  "_data_munging_with_perl.NJUWg_uw.avif": {
+    "file": "_app/immutable/assets/data_munging_with_perl.NJUWg_uw.avif",
+    "src": "_data_munging_with_perl.NJUWg_uw.avif"
+  },
+  "_data_munging_with_perl.Ycl-085Q.avif": {
+    "file": "_app/immutable/assets/data_munging_with_perl.Ycl-085Q.avif",
+    "src": "_data_munging_with_perl.Ycl-085Q.avif"
+  },
+  "_difficult_words.8iLqZZD8.jpeg": {
+    "file": "_app/immutable/assets/difficult_words.8iLqZZD8.jpeg",
+    "src": "_difficult_words.8iLqZZD8.jpeg"
+  },
+  "_difficult_words.BYqHwLS9.avif": {
+    "file": "_app/immutable/assets/difficult_words.BYqHwLS9.avif",
+    "src": "_difficult_words.BYqHwLS9.avif"
+  },
+  "_difficult_words.C5cq59Zk.jpeg": {
+    "file": "_app/immutable/assets/difficult_words.C5cq59Zk.jpeg",
+    "src": "_difficult_words.C5cq59Zk.jpeg"
+  },
+  "_difficult_words.CKIEqZYJ.avif": {
+    "file": "_app/immutable/assets/difficult_words.CKIEqZYJ.avif",
+    "src": "_difficult_words.CKIEqZYJ.avif"
+  },
+  "_difficult_words.CNi9ZwLx.jpeg": {
+    "file": "_app/immutable/assets/difficult_words.CNi9ZwLx.jpeg",
+    "src": "_difficult_words.CNi9ZwLx.jpeg"
+  },
+  "_difficult_words.CdOh8oVL.avif": {
+    "file": "_app/immutable/assets/difficult_words.CdOh8oVL.avif",
+    "src": "_difficult_words.CdOh8oVL.avif"
+  },
+  "_difficult_words.Ck5KLKHX.avif": {
+    "file": "_app/immutable/assets/difficult_words.Ck5KLKHX.avif",
+    "src": "_difficult_words.Ck5KLKHX.avif"
+  },
+  "_difficult_words.DHl-dkqa.jpeg": {
+    "file": "_app/immutable/assets/difficult_words.DHl-dkqa.jpeg",
+    "src": "_difficult_words.DHl-dkqa.jpeg"
+  },
+  "_difficult_words.DJdeBwsw.webp": {
+    "file": "_app/immutable/assets/difficult_words.DJdeBwsw.webp",
+    "src": "_difficult_words.DJdeBwsw.webp"
+  },
+  "_difficult_words.DObyyZoy.webp": {
+    "file": "_app/immutable/assets/difficult_words.DObyyZoy.webp",
+    "src": "_difficult_words.DObyyZoy.webp"
+  },
+  "_difficult_words.DfBeuLNk.webp": {
+    "file": "_app/immutable/assets/difficult_words.DfBeuLNk.webp",
+    "src": "_difficult_words.DfBeuLNk.webp"
+  },
+  "_difficult_words.eQSMk-zo.webp": {
+    "file": "_app/immutable/assets/difficult_words.eQSMk-zo.webp",
+    "src": "_difficult_words.eQSMk-zo.webp"
+  },
+  "_don_quichotte.1X6x1QFv.avif": {
+    "file": "_app/immutable/assets/don_quichotte.1X6x1QFv.avif",
+    "src": "_don_quichotte.1X6x1QFv.avif"
+  },
+  "_don_quichotte.B8XlaTdT.webp": {
+    "file": "_app/immutable/assets/don_quichotte.B8XlaTdT.webp",
+    "src": "_don_quichotte.B8XlaTdT.webp"
+  },
+  "_don_quichotte.BuPIqvay.avif": {
+    "file": "_app/immutable/assets/don_quichotte.BuPIqvay.avif",
+    "src": "_don_quichotte.BuPIqvay.avif"
+  },
+  "_don_quichotte.CoI8VDFx.jpeg": {
+    "file": "_app/immutable/assets/don_quichotte.CoI8VDFx.jpeg",
+    "src": "_don_quichotte.CoI8VDFx.jpeg"
+  },
+  "_don_quichotte.CqMVdAXP.avif": {
+    "file": "_app/immutable/assets/don_quichotte.CqMVdAXP.avif",
+    "src": "_don_quichotte.CqMVdAXP.avif"
+  },
+  "_don_quichotte.CyFFj3wu.webp": {
+    "file": "_app/immutable/assets/don_quichotte.CyFFj3wu.webp",
+    "src": "_don_quichotte.CyFFj3wu.webp"
+  },
+  "_don_quichotte.DIb2e8a2.jpeg": {
+    "file": "_app/immutable/assets/don_quichotte.DIb2e8a2.jpeg",
+    "src": "_don_quichotte.DIb2e8a2.jpeg"
+  },
+  "_don_quichotte.DOg9Mdz-.jpeg": {
+    "file": "_app/immutable/assets/don_quichotte.DOg9Mdz-.jpeg",
+    "src": "_don_quichotte.DOg9Mdz-.jpeg"
+  },
+  "_don_quichotte.DPWhwl3O.webp": {
+    "file": "_app/immutable/assets/don_quichotte.DPWhwl3O.webp",
+    "src": "_don_quichotte.DPWhwl3O.webp"
+  },
+  "_don_quichotte.PjbFo47p.avif": {
+    "file": "_app/immutable/assets/don_quichotte.PjbFo47p.avif",
+    "src": "_don_quichotte.PjbFo47p.avif"
+  },
+  "_don_quichotte.nD6svw9A.jpeg": {
+    "file": "_app/immutable/assets/don_quichotte.nD6svw9A.jpeg",
+    "src": "_don_quichotte.nD6svw9A.jpeg"
+  },
+  "_don_quichotte.tKD1GQRX.webp": {
+    "file": "_app/immutable/assets/don_quichotte.tKD1GQRX.webp",
+    "src": "_don_quichotte.tKD1GQRX.webp"
+  },
+  "_ergopti__reduction_SFBs.B_AyWDmt.webp": {
+    "file": "_app/immutable/assets/ergopti__reduction_SFBs.B_AyWDmt.webp",
+    "src": "_ergopti__reduction_SFBs.B_AyWDmt.webp"
+  },
+  "_ergopti__reduction_SFBs.CLHQtYRc.avif": {
+    "file": "_app/immutable/assets/ergopti__reduction_SFBs.CLHQtYRc.avif",
+    "src": "_ergopti__reduction_SFBs.CLHQtYRc.avif"
+  },
+  "_ergopti__reduction_SFBs.CROgmLhi.jpeg": {
+    "file": "_app/immutable/assets/ergopti__reduction_SFBs.CROgmLhi.jpeg",
+    "src": "_ergopti__reduction_SFBs.CROgmLhi.jpeg"
+  },
+  "_ergopti__reduction_SFBs.CxcL5riW.avif": {
+    "file": "_app/immutable/assets/ergopti__reduction_SFBs.CxcL5riW.avif",
+    "src": "_ergopti__reduction_SFBs.CxcL5riW.avif"
+  },
+  "_ergopti__reduction_SFBs.D0Q_x0YP.webp": {
+    "file": "_app/immutable/assets/ergopti__reduction_SFBs.D0Q_x0YP.webp",
+    "src": "_ergopti__reduction_SFBs.D0Q_x0YP.webp"
+  },
+  "_ergopti__reduction_SFBs.LYtLRobf.jpeg": {
+    "file": "_app/immutable/assets/ergopti__reduction_SFBs.LYtLRobf.jpeg",
+    "src": "_ergopti__reduction_SFBs.LYtLRobf.jpeg"
+  },
+  "_ergopti_plus_macos.B08Cm1l_.webp": {
+    "file": "_app/immutable/assets/ergopti_plus_macos.B08Cm1l_.webp",
+    "src": "_ergopti_plus_macos.B08Cm1l_.webp"
+  },
+  "_ergopti_plus_macos.BMpcnlVm.webp": {
+    "file": "_app/immutable/assets/ergopti_plus_macos.BMpcnlVm.webp",
+    "src": "_ergopti_plus_macos.BMpcnlVm.webp"
+  },
+  "_ergopti_plus_macos.BnTQhB_M.jpeg": {
+    "file": "_app/immutable/assets/ergopti_plus_macos.BnTQhB_M.jpeg",
+    "src": "_ergopti_plus_macos.BnTQhB_M.jpeg"
+  },
+  "_ergopti_plus_macos.D09LQbPb.avif": {
+    "file": "_app/immutable/assets/ergopti_plus_macos.D09LQbPb.avif",
+    "src": "_ergopti_plus_macos.D09LQbPb.avif"
+  },
+  "_ergopti_plus_macos.DzLn5Maw.avif": {
+    "file": "_app/immutable/assets/ergopti_plus_macos.DzLn5Maw.avif",
+    "src": "_ergopti_plus_macos.DzLn5Maw.avif"
+  },
+  "_ergopti_plus_macos.OfPmFkAh.jpeg": {
+    "file": "_app/immutable/assets/ergopti_plus_macos.OfPmFkAh.jpeg",
+    "src": "_ergopti_plus_macos.OfPmFkAh.jpeg"
+  },
+  "_ergopti_plus_windows.B03WzHM3.webp": {
+    "file": "_app/immutable/assets/ergopti_plus_windows.B03WzHM3.webp",
+    "src": "_ergopti_plus_windows.B03WzHM3.webp"
+  },
+  "_ergopti_plus_windows.BrL_pqLP.webp": {
+    "file": "_app/immutable/assets/ergopti_plus_windows.BrL_pqLP.webp",
+    "src": "_ergopti_plus_windows.BrL_pqLP.webp"
+  },
+  "_ergopti_plus_windows.CdH9R9ea.jpeg": {
+    "file": "_app/immutable/assets/ergopti_plus_windows.CdH9R9ea.jpeg",
+    "src": "_ergopti_plus_windows.CdH9R9ea.jpeg"
+  },
+  "_ergopti_plus_windows.DKF6nwGY.jpeg": {
+    "file": "_app/immutable/assets/ergopti_plus_windows.DKF6nwGY.jpeg",
+    "src": "_ergopti_plus_windows.DKF6nwGY.jpeg"
+  },
+  "_ergopti_plus_windows.DZscPoEx.avif": {
+    "file": "_app/immutable/assets/ergopti_plus_windows.DZscPoEx.avif",
+    "src": "_ergopti_plus_windows.DZscPoEx.avif"
+  },
+  "_ergopti_plus_windows.EcNTLyz2.avif": {
+    "file": "_app/immutable/assets/ergopti_plus_windows.EcNTLyz2.avif",
+    "src": "_ergopti_plus_windows.EcNTLyz2.avif"
+  },
+  "_essais.87nUnI0S.webp": {
+    "file": "_app/immutable/assets/essais.87nUnI0S.webp",
+    "src": "_essais.87nUnI0S.webp"
+  },
+  "_essais.BAoHJjWB.avif": {
+    "file": "_app/immutable/assets/essais.BAoHJjWB.avif",
+    "src": "_essais.BAoHJjWB.avif"
+  },
+  "_essais.BzLmoAPv.jpeg": {
+    "file": "_app/immutable/assets/essais.BzLmoAPv.jpeg",
+    "src": "_essais.BzLmoAPv.jpeg"
+  },
+  "_essais.C7nUJf58.avif": {
+    "file": "_app/immutable/assets/essais.C7nUJf58.avif",
+    "src": "_essais.C7nUJf58.avif"
+  },
+  "_essais.CsN3BKoU.jpeg": {
+    "file": "_app/immutable/assets/essais.CsN3BKoU.jpeg",
+    "src": "_essais.CsN3BKoU.jpeg"
+  },
+  "_essais.CzqC4nKX.webp": {
+    "file": "_app/immutable/assets/essais.CzqC4nKX.webp",
+    "src": "_essais.CzqC4nKX.webp"
+  },
+  "_essais.DJeS51gv.avif": {
+    "file": "_app/immutable/assets/essais.DJeS51gv.avif",
+    "src": "_essais.DJeS51gv.avif"
+  },
+  "_essais.DWpIT1vL.webp": {
+    "file": "_app/immutable/assets/essais.DWpIT1vL.webp",
+    "src": "_essais.DWpIT1vL.webp"
+  },
+  "_essais.Dys4_-7W.webp": {
+    "file": "_app/immutable/assets/essais.Dys4_-7W.webp",
+    "src": "_essais.Dys4_-7W.webp"
+  },
+  "_essais.Nio0Be1G.jpeg": {
+    "file": "_app/immutable/assets/essais.Nio0Be1G.jpeg",
+    "src": "_essais.Nio0Be1G.jpeg"
+  },
+  "_essais.ZU-fntbJ.avif": {
+    "file": "_app/immutable/assets/essais.ZU-fntbJ.avif",
+    "src": "_essais.ZU-fntbJ.avif"
+  },
+  "_essais.mweCjXkh.jpeg": {
+    "file": "_app/immutable/assets/essais.mweCjXkh.jpeg",
+    "src": "_essais.mweCjXkh.jpeg"
+  },
+  "_finger_usage_comparison.C4ou0b2S.avif": {
+    "file": "_app/immutable/assets/finger_usage_comparison.C4ou0b2S.avif",
+    "src": "_finger_usage_comparison.C4ou0b2S.avif"
+  },
+  "_finger_usage_comparison.CdgD8K4Y.avif": {
+    "file": "_app/immutable/assets/finger_usage_comparison.CdgD8K4Y.avif",
+    "src": "_finger_usage_comparison.CdgD8K4Y.avif"
+  },
+  "_finger_usage_comparison.DeEXVNH_.webp": {
+    "file": "_app/immutable/assets/finger_usage_comparison.DeEXVNH_.webp",
+    "src": "_finger_usage_comparison.DeEXVNH_.webp"
+  },
+  "_finger_usage_comparison.Do17q2MV.webp": {
+    "file": "_app/immutable/assets/finger_usage_comparison.Do17q2MV.webp",
+    "src": "_finger_usage_comparison.Do17q2MV.webp"
+  },
+  "_finger_usage_comparison.HxOfSIOt.jpeg": {
+    "file": "_app/immutable/assets/finger_usage_comparison.HxOfSIOt.jpeg",
+    "src": "_finger_usage_comparison.HxOfSIOt.jpeg"
+  },
+  "_finger_usage_comparison.nCu6Z_cl.jpeg": {
+    "file": "_app/immutable/assets/finger_usage_comparison.nCu6Z_cl.jpeg",
+    "src": "_finger_usage_comparison.nCu6Z_cl.jpeg"
+  },
+  "_jmuzHjgz.js": {
+    "file": "_app/immutable/chunks/jmuzHjgz.js",
+    "name": "index-client"
+  },
+  "_lXnObdeJ.js": {
+    "file": "_app/immutable/chunks/lXnObdeJ.js",
+    "name": "each",
+    "imports": [
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_leipzig_fra_news_2023_10K-sentences.B4uhOw71.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.B4uhOw71.webp",
+    "src": "_leipzig_fra_news_2023_10K-sentences.B4uhOw71.webp"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.BFr-foMc.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BFr-foMc.avif",
+    "src": "_leipzig_fra_news_2023_10K-sentences.BFr-foMc.avif"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.BG7kZfcR.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BG7kZfcR.webp",
+    "src": "_leipzig_fra_news_2023_10K-sentences.BG7kZfcR.webp"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.BRqtr_EH.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BRqtr_EH.webp",
+    "src": "_leipzig_fra_news_2023_10K-sentences.BRqtr_EH.webp"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.BbpifiV8.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.BbpifiV8.avif",
+    "src": "_leipzig_fra_news_2023_10K-sentences.BbpifiV8.avif"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.C-S3oVP3.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.C-S3oVP3.webp",
+    "src": "_leipzig_fra_news_2023_10K-sentences.C-S3oVP3.webp"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.CEMJgEPk.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.CEMJgEPk.avif",
+    "src": "_leipzig_fra_news_2023_10K-sentences.CEMJgEPk.avif"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.CqanJHJS.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.CqanJHJS.avif",
+    "src": "_leipzig_fra_news_2023_10K-sentences.CqanJHJS.avif"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.Dp9-Tj29.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.Dp9-Tj29.jpeg",
+    "src": "_leipzig_fra_news_2023_10K-sentences.Dp9-Tj29.jpeg"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.DwSepTRu.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.DwSepTRu.jpeg",
+    "src": "_leipzig_fra_news_2023_10K-sentences.DwSepTRu.jpeg"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.Jqu1RWZx.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.Jqu1RWZx.jpeg",
+    "src": "_leipzig_fra_news_2023_10K-sentences.Jqu1RWZx.jpeg"
+  },
+  "_leipzig_fra_news_2023_10K-sentences.So2CMT-q.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_news_2023_10K-sentences.So2CMT-q.jpeg",
+    "src": "_leipzig_fra_news_2023_10K-sentences.So2CMT-q.jpeg"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.BEXb9nFV.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BEXb9nFV.webp",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.BEXb9nFV.webp"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.BGRSq9pN.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BGRSq9pN.jpeg",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.BGRSq9pN.jpeg"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.BNVz9zHa.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BNVz9zHa.webp",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.BNVz9zHa.webp"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.BVq-3Mjd.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.BVq-3Mjd.jpeg",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.BVq-3Mjd.jpeg"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.CujYCtSY.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.CujYCtSY.jpeg",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.CujYCtSY.jpeg"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.CxR7lyo9.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.CxR7lyo9.avif",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.CxR7lyo9.avif"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.DOa6jrXy.jpeg": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.DOa6jrXy.jpeg",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.DOa6jrXy.jpeg"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.D_C-49Yt.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.D_C-49Yt.avif",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.D_C-49Yt.avif"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.KNTNb13-.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.KNTNb13-.avif",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.KNTNb13-.avif"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.V4FgdYFm.avif": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.V4FgdYFm.avif",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.V4FgdYFm.avif"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.VZopo5z5.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.VZopo5z5.webp",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.VZopo5z5.webp"
+  },
+  "_leipzig_fra_wikipedia_2021_10K-sentences.zRkApDaV.webp": {
+    "file": "_app/immutable/assets/leipzig_fra_wikipedia_2021_10K-sentences.zRkApDaV.webp",
+    "src": "_leipzig_fra_wikipedia_2021_10K-sentences.zRkApDaV.webp"
+  },
+  "_macos_installation_1.DHygMQ5x.avif": {
+    "file": "_app/immutable/assets/macos_installation_1.DHygMQ5x.avif",
+    "src": "_macos_installation_1.DHygMQ5x.avif"
+  },
+  "_macos_installation_1.Dil17oqc.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_1.Dil17oqc.jpeg",
+    "src": "_macos_installation_1.Dil17oqc.jpeg"
+  },
+  "_macos_installation_1.DisDiFvj.webp": {
+    "file": "_app/immutable/assets/macos_installation_1.DisDiFvj.webp",
+    "src": "_macos_installation_1.DisDiFvj.webp"
+  },
+  "_macos_installation_1.TYG3qrNV.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_1.TYG3qrNV.jpeg",
+    "src": "_macos_installation_1.TYG3qrNV.jpeg"
+  },
+  "_macos_installation_1.dVJIEhtb.webp": {
+    "file": "_app/immutable/assets/macos_installation_1.dVJIEhtb.webp",
+    "src": "_macos_installation_1.dVJIEhtb.webp"
+  },
+  "_macos_installation_1.zn854vRT.avif": {
+    "file": "_app/immutable/assets/macos_installation_1.zn854vRT.avif",
+    "src": "_macos_installation_1.zn854vRT.avif"
+  },
+  "_macos_installation_2.By292Pcy.avif": {
+    "file": "_app/immutable/assets/macos_installation_2.By292Pcy.avif",
+    "src": "_macos_installation_2.By292Pcy.avif"
+  },
+  "_macos_installation_2.CjHLxrwF.webp": {
+    "file": "_app/immutable/assets/macos_installation_2.CjHLxrwF.webp",
+    "src": "_macos_installation_2.CjHLxrwF.webp"
+  },
+  "_macos_installation_2.DQSIpVHm.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_2.DQSIpVHm.jpeg",
+    "src": "_macos_installation_2.DQSIpVHm.jpeg"
+  },
+  "_macos_installation_2.DW4_Ep2G.webp": {
+    "file": "_app/immutable/assets/macos_installation_2.DW4_Ep2G.webp",
+    "src": "_macos_installation_2.DW4_Ep2G.webp"
+  },
+  "_macos_installation_2.Dxd7bzWP.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_2.Dxd7bzWP.jpeg",
+    "src": "_macos_installation_2.Dxd7bzWP.jpeg"
+  },
+  "_macos_installation_2.H5YY4r2F.avif": {
+    "file": "_app/immutable/assets/macos_installation_2.H5YY4r2F.avif",
+    "src": "_macos_installation_2.H5YY4r2F.avif"
+  },
+  "_macos_installation_3.B-IzcGiX.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_3.B-IzcGiX.jpeg",
+    "src": "_macos_installation_3.B-IzcGiX.jpeg"
+  },
+  "_macos_installation_3.CxcRhjqT.webp": {
+    "file": "_app/immutable/assets/macos_installation_3.CxcRhjqT.webp",
+    "src": "_macos_installation_3.CxcRhjqT.webp"
+  },
+  "_macos_installation_3.DOwSe_xv.webp": {
+    "file": "_app/immutable/assets/macos_installation_3.DOwSe_xv.webp",
+    "src": "_macos_installation_3.DOwSe_xv.webp"
+  },
+  "_macos_installation_3.DVZzHwpK.avif": {
+    "file": "_app/immutable/assets/macos_installation_3.DVZzHwpK.avif",
+    "src": "_macos_installation_3.DVZzHwpK.avif"
+  },
+  "_macos_installation_3.D_Y3YeSt.avif": {
+    "file": "_app/immutable/assets/macos_installation_3.D_Y3YeSt.avif",
+    "src": "_macos_installation_3.D_Y3YeSt.avif"
+  },
+  "_macos_installation_3.raX05133.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_3.raX05133.jpeg",
+    "src": "_macos_installation_3.raX05133.jpeg"
+  },
+  "_macos_installation_4.BPqzulyw.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_4.BPqzulyw.jpeg",
+    "src": "_macos_installation_4.BPqzulyw.jpeg"
+  },
+  "_macos_installation_4.BRaPl4QW.webp": {
+    "file": "_app/immutable/assets/macos_installation_4.BRaPl4QW.webp",
+    "src": "_macos_installation_4.BRaPl4QW.webp"
+  },
+  "_macos_installation_4.Cq7_4npA.jpeg": {
+    "file": "_app/immutable/assets/macos_installation_4.Cq7_4npA.jpeg",
+    "src": "_macos_installation_4.Cq7_4npA.jpeg"
+  },
+  "_macos_installation_4.DI2lmgUz.avif": {
+    "file": "_app/immutable/assets/macos_installation_4.DI2lmgUz.avif",
+    "src": "_macos_installation_4.DI2lmgUz.avif"
+  },
+  "_macos_installation_4.QrveXJs6.webp": {
+    "file": "_app/immutable/assets/macos_installation_4.QrveXJs6.webp",
+    "src": "_macos_installation_4.QrveXJs6.webp"
+  },
+  "_macos_installation_4.xWDU3ZQg.avif": {
+    "file": "_app/immutable/assets/macos_installation_4.xWDU3ZQg.avif",
+    "src": "_macos_installation_4.xWDU3ZQg.avif"
+  },
+  "_macos_language_bar.2Y6Jw5f9.jpeg": {
+    "file": "_app/immutable/assets/macos_language_bar.2Y6Jw5f9.jpeg",
+    "src": "_macos_language_bar.2Y6Jw5f9.jpeg"
+  },
+  "_macos_language_bar.BTmcdvvi.webp": {
+    "file": "_app/immutable/assets/macos_language_bar.BTmcdvvi.webp",
+    "src": "_macos_language_bar.BTmcdvvi.webp"
+  },
+  "_macos_language_bar.CiTWatiD.avif": {
+    "file": "_app/immutable/assets/macos_language_bar.CiTWatiD.avif",
+    "src": "_macos_language_bar.CiTWatiD.avif"
+  },
+  "_macos_language_bar.DB5d2o3-.avif": {
+    "file": "_app/immutable/assets/macos_language_bar.DB5d2o3-.avif",
+    "src": "_macos_language_bar.DB5d2o3-.avif"
+  },
+  "_macos_language_bar.DaUcRIO0.webp": {
+    "file": "_app/immutable/assets/macos_language_bar.DaUcRIO0.webp",
+    "src": "_macos_language_bar.DaUcRIO0.webp"
+  },
+  "_macos_language_bar.x-dCqrns.jpeg": {
+    "file": "_app/immutable/assets/macos_language_bar.x-dCqrns.jpeg",
+    "src": "_macos_language_bar.x-dCqrns.jpeg"
+  },
+  "_macos_open_bundle.27ko_CeJ.webp": {
+    "file": "_app/immutable/assets/macos_open_bundle.27ko_CeJ.webp",
+    "src": "_macos_open_bundle.27ko_CeJ.webp"
+  },
+  "_macos_open_bundle.BVhHiWNI.avif": {
+    "file": "_app/immutable/assets/macos_open_bundle.BVhHiWNI.avif",
+    "src": "_macos_open_bundle.BVhHiWNI.avif"
+  },
+  "_macos_open_bundle.BVnraMot.jpeg": {
+    "file": "_app/immutable/assets/macos_open_bundle.BVnraMot.jpeg",
+    "src": "_macos_open_bundle.BVnraMot.jpeg"
+  },
+  "_macos_open_bundle.D7os1G9W.avif": {
+    "file": "_app/immutable/assets/macos_open_bundle.D7os1G9W.avif",
+    "src": "_macos_open_bundle.D7os1G9W.avif"
+  },
+  "_macos_open_bundle.D8D4YMf4.webp": {
+    "file": "_app/immutable/assets/macos_open_bundle.D8D4YMf4.webp",
+    "src": "_macos_open_bundle.D8D4YMf4.webp"
+  },
+  "_macos_open_bundle.DJHe603H.jpeg": {
+    "file": "_app/immutable/assets/macos_open_bundle.DJHe603H.jpeg",
+    "src": "_macos_open_bundle.DJHe603H.jpeg"
+  },
+  "_oZPnEnlq.js": {
+    "file": "_app/immutable/chunks/oZPnEnlq.js",
+    "name": "props",
+    "imports": [
+      "_jmuzHjgz.js",
+      "_uUVrmSwv.js"
+    ]
+  },
+  "_panache.5GS-K6W4.webp": {
+    "file": "_app/immutable/assets/panache.5GS-K6W4.webp",
+    "src": "_panache.5GS-K6W4.webp"
+  },
+  "_panache.BqvU9gGu.avif": {
+    "file": "_app/immutable/assets/panache.BqvU9gGu.avif",
+    "src": "_panache.BqvU9gGu.avif"
+  },
+  "_panache.C10KQlSM.avif": {
+    "file": "_app/immutable/assets/panache.C10KQlSM.avif",
+    "src": "_panache.C10KQlSM.avif"
+  },
+  "_panache.C4eW8aG5.avif": {
+    "file": "_app/immutable/assets/panache.C4eW8aG5.avif",
+    "src": "_panache.C4eW8aG5.avif"
+  },
+  "_panache.CCL9fMi5.webp": {
+    "file": "_app/immutable/assets/panache.CCL9fMi5.webp",
+    "src": "_panache.CCL9fMi5.webp"
+  },
+  "_panache.CqtSbqzD.jpeg": {
+    "file": "_app/immutable/assets/panache.CqtSbqzD.jpeg",
+    "src": "_panache.CqtSbqzD.jpeg"
+  },
+  "_panache.DoTWzFIY.jpeg": {
+    "file": "_app/immutable/assets/panache.DoTWzFIY.jpeg",
+    "src": "_panache.DoTWzFIY.jpeg"
+  },
+  "_panache.DpbD5z7d.webp": {
+    "file": "_app/immutable/assets/panache.DpbD5z7d.webp",
+    "src": "_panache.DpbD5z7d.webp"
+  },
+  "_panache.Ds-azRej.webp": {
+    "file": "_app/immutable/assets/panache.Ds-azRej.webp",
+    "src": "_panache.Ds-azRej.webp"
+  },
+  "_panache.OzhzmmoN.jpeg": {
+    "file": "_app/immutable/assets/panache.OzhzmmoN.jpeg",
+    "src": "_panache.OzhzmmoN.jpeg"
+  },
+  "_panache.rQDCkfp3.avif": {
+    "file": "_app/immutable/assets/panache.rQDCkfp3.avif",
+    "src": "_panache.rQDCkfp3.avif"
+  },
+  "_panache.xzR0uAoA.jpeg": {
+    "file": "_app/immutable/assets/panache.xzR0uAoA.jpeg",
+    "src": "_panache.xzR0uAoA.jpeg"
+  },
+  "_practical_php_testing.-DmZZpPY.webp": {
+    "file": "_app/immutable/assets/practical_php_testing.-DmZZpPY.webp",
+    "src": "_practical_php_testing.-DmZZpPY.webp"
+  },
+  "_practical_php_testing.9OQkxXP7.avif": {
+    "file": "_app/immutable/assets/practical_php_testing.9OQkxXP7.avif",
+    "src": "_practical_php_testing.9OQkxXP7.avif"
+  },
+  "_practical_php_testing.B8CoNlLk.jpeg": {
+    "file": "_app/immutable/assets/practical_php_testing.B8CoNlLk.jpeg",
+    "src": "_practical_php_testing.B8CoNlLk.jpeg"
+  },
+  "_practical_php_testing.BBKvBo2c.webp": {
+    "file": "_app/immutable/assets/practical_php_testing.BBKvBo2c.webp",
+    "src": "_practical_php_testing.BBKvBo2c.webp"
+  },
+  "_practical_php_testing.BOwrLy5k.avif": {
+    "file": "_app/immutable/assets/practical_php_testing.BOwrLy5k.avif",
+    "src": "_practical_php_testing.BOwrLy5k.avif"
+  },
+  "_practical_php_testing.BZeZ9qy6.avif": {
+    "file": "_app/immutable/assets/practical_php_testing.BZeZ9qy6.avif",
+    "src": "_practical_php_testing.BZeZ9qy6.avif"
+  },
+  "_practical_php_testing.BaIxpn0l.jpeg": {
+    "file": "_app/immutable/assets/practical_php_testing.BaIxpn0l.jpeg",
+    "src": "_practical_php_testing.BaIxpn0l.jpeg"
+  },
+  "_practical_php_testing.BcqNyVaZ.avif": {
+    "file": "_app/immutable/assets/practical_php_testing.BcqNyVaZ.avif",
+    "src": "_practical_php_testing.BcqNyVaZ.avif"
+  },
+  "_practical_php_testing.BoQp67HV.webp": {
+    "file": "_app/immutable/assets/practical_php_testing.BoQp67HV.webp",
+    "src": "_practical_php_testing.BoQp67HV.webp"
+  },
+  "_practical_php_testing.CQrFW7hL.jpeg": {
+    "file": "_app/immutable/assets/practical_php_testing.CQrFW7hL.jpeg",
+    "src": "_practical_php_testing.CQrFW7hL.jpeg"
+  },
+  "_practical_php_testing.CxpKIs-C.webp": {
+    "file": "_app/immutable/assets/practical_php_testing.CxpKIs-C.webp",
+    "src": "_practical_php_testing.CxpKIs-C.webp"
+  },
+  "_practical_php_testing.DuCdi54a.jpeg": {
+    "file": "_app/immutable/assets/practical_php_testing.DuCdi54a.jpeg",
+    "src": "_practical_php_testing.DuCdi54a.jpeg"
+  },
+  "_programming_punctuation.B2OVVmsz.jpeg": {
+    "file": "_app/immutable/assets/programming_punctuation.B2OVVmsz.jpeg",
+    "src": "_programming_punctuation.B2OVVmsz.jpeg"
+  },
+  "_programming_punctuation.BVT3VCL0.webp": {
+    "file": "_app/immutable/assets/programming_punctuation.BVT3VCL0.webp",
+    "src": "_programming_punctuation.BVT3VCL0.webp"
+  },
+  "_programming_punctuation.BdfQdfFU.jpeg": {
+    "file": "_app/immutable/assets/programming_punctuation.BdfQdfFU.jpeg",
+    "src": "_programming_punctuation.BdfQdfFU.jpeg"
+  },
+  "_programming_punctuation.C4j5dy29.webp": {
+    "file": "_app/immutable/assets/programming_punctuation.C4j5dy29.webp",
+    "src": "_programming_punctuation.C4j5dy29.webp"
+  },
+  "_programming_punctuation.CDvqdfUc.avif": {
+    "file": "_app/immutable/assets/programming_punctuation.CDvqdfUc.avif",
+    "src": "_programming_punctuation.CDvqdfUc.avif"
+  },
+  "_programming_punctuation.CG0P_jAJ.avif": {
+    "file": "_app/immutable/assets/programming_punctuation.CG0P_jAJ.avif",
+    "src": "_programming_punctuation.CG0P_jAJ.avif"
+  },
+  "_programming_punctuation.CPWoWB4_.avif": {
+    "file": "_app/immutable/assets/programming_punctuation.CPWoWB4_.avif",
+    "src": "_programming_punctuation.CPWoWB4_.avif"
+  },
+  "_programming_punctuation.CksXrEGL.webp": {
+    "file": "_app/immutable/assets/programming_punctuation.CksXrEGL.webp",
+    "src": "_programming_punctuation.CksXrEGL.webp"
+  },
+  "_programming_punctuation.CpJYZ7Iv.avif": {
+    "file": "_app/immutable/assets/programming_punctuation.CpJYZ7Iv.avif",
+    "src": "_programming_punctuation.CpJYZ7Iv.avif"
+  },
+  "_programming_punctuation.Cu6NyV9P.jpeg": {
+    "file": "_app/immutable/assets/programming_punctuation.Cu6NyV9P.jpeg",
+    "src": "_programming_punctuation.Cu6NyV9P.jpeg"
+  },
+  "_programming_punctuation.D0DP_iGC.jpeg": {
+    "file": "_app/immutable/assets/programming_punctuation.D0DP_iGC.jpeg",
+    "src": "_programming_punctuation.D0DP_iGC.jpeg"
+  },
+  "_programming_punctuation.DprM0gGb.webp": {
+    "file": "_app/immutable/assets/programming_punctuation.DprM0gGb.webp",
+    "src": "_programming_punctuation.DprM0gGb.webp"
+  },
+  "_python_for_everybody.B3lULesT.jpeg": {
+    "file": "_app/immutable/assets/python_for_everybody.B3lULesT.jpeg",
+    "src": "_python_for_everybody.B3lULesT.jpeg"
+  },
+  "_python_for_everybody.BtRgXn0Y.webp": {
+    "file": "_app/immutable/assets/python_for_everybody.BtRgXn0Y.webp",
+    "src": "_python_for_everybody.BtRgXn0Y.webp"
+  },
+  "_python_for_everybody.CNkWeGzU.jpeg": {
+    "file": "_app/immutable/assets/python_for_everybody.CNkWeGzU.jpeg",
+    "src": "_python_for_everybody.CNkWeGzU.jpeg"
+  },
+  "_python_for_everybody.CYp1FC8i.webp": {
+    "file": "_app/immutable/assets/python_for_everybody.CYp1FC8i.webp",
+    "src": "_python_for_everybody.CYp1FC8i.webp"
+  },
+  "_python_for_everybody.CusM41yB.avif": {
+    "file": "_app/immutable/assets/python_for_everybody.CusM41yB.avif",
+    "src": "_python_for_everybody.CusM41yB.avif"
+  },
+  "_python_for_everybody.DWA7jV3L.jpeg": {
+    "file": "_app/immutable/assets/python_for_everybody.DWA7jV3L.jpeg",
+    "src": "_python_for_everybody.DWA7jV3L.jpeg"
+  },
+  "_python_for_everybody.DWUa8Pwq.webp": {
+    "file": "_app/immutable/assets/python_for_everybody.DWUa8Pwq.webp",
+    "src": "_python_for_everybody.DWUa8Pwq.webp"
+  },
+  "_python_for_everybody.Db5rNa19.avif": {
+    "file": "_app/immutable/assets/python_for_everybody.Db5rNa19.avif",
+    "src": "_python_for_everybody.Db5rNa19.avif"
+  },
+  "_python_for_everybody.Y1CG3QEg.webp": {
+    "file": "_app/immutable/assets/python_for_everybody.Y1CG3QEg.webp",
+    "src": "_python_for_everybody.Y1CG3QEg.webp"
+  },
+  "_python_for_everybody.a-jLTIAI.avif": {
+    "file": "_app/immutable/assets/python_for_everybody.a-jLTIAI.avif",
+    "src": "_python_for_everybody.a-jLTIAI.avif"
+  },
+  "_python_for_everybody.iLvicGSy.jpeg": {
+    "file": "_app/immutable/assets/python_for_everybody.iLvicGSy.jpeg",
+    "src": "_python_for_everybody.iLvicGSy.jpeg"
+  },
+  "_python_for_everybody.yHxeolES.avif": {
+    "file": "_app/immutable/assets/python_for_everybody.yHxeolES.avif",
+    "src": "_python_for_everybody.yHxeolES.avif"
+  },
+  "_random_text.BKARmqvE.webp": {
+    "file": "_app/immutable/assets/random_text.BKARmqvE.webp",
+    "src": "_random_text.BKARmqvE.webp"
+  },
+  "_random_text.BMit6aY5.webp": {
+    "file": "_app/immutable/assets/random_text.BMit6aY5.webp",
+    "src": "_random_text.BMit6aY5.webp"
+  },
+  "_random_text.C-8lNp-t.jpeg": {
+    "file": "_app/immutable/assets/random_text.C-8lNp-t.jpeg",
+    "src": "_random_text.C-8lNp-t.jpeg"
+  },
+  "_random_text.CA5Sb_Dk.jpeg": {
+    "file": "_app/immutable/assets/random_text.CA5Sb_Dk.jpeg",
+    "src": "_random_text.CA5Sb_Dk.jpeg"
+  },
+  "_random_text.CfgLW1YA.webp": {
+    "file": "_app/immutable/assets/random_text.CfgLW1YA.webp",
+    "src": "_random_text.CfgLW1YA.webp"
+  },
+  "_random_text.Crr78Bau.jpeg": {
+    "file": "_app/immutable/assets/random_text.Crr78Bau.jpeg",
+    "src": "_random_text.Crr78Bau.jpeg"
+  },
+  "_random_text.CuQAMJKr.jpeg": {
+    "file": "_app/immutable/assets/random_text.CuQAMJKr.jpeg",
+    "src": "_random_text.CuQAMJKr.jpeg"
+  },
+  "_random_text.CvhcbMg9.avif": {
+    "file": "_app/immutable/assets/random_text.CvhcbMg9.avif",
+    "src": "_random_text.CvhcbMg9.avif"
+  },
+  "_random_text.D8F1ANd0.avif": {
+    "file": "_app/immutable/assets/random_text.D8F1ANd0.avif",
+    "src": "_random_text.D8F1ANd0.avif"
+  },
+  "_random_text.DH-14E9O.avif": {
+    "file": "_app/immutable/assets/random_text.DH-14E9O.avif",
+    "src": "_random_text.DH-14E9O.avif"
+  },
+  "_random_text.GNPxp_w4.webp": {
+    "file": "_app/immutable/assets/random_text.GNPxp_w4.webp",
+    "src": "_random_text.GNPxp_w4.webp"
+  },
+  "_random_text.JnOmUK7_.avif": {
+    "file": "_app/immutable/assets/random_text.JnOmUK7_.avif",
+    "src": "_random_text.JnOmUK7_.avif"
+  },
+  "_romans.BDkKE8Co.jpeg": {
+    "file": "_app/immutable/assets/romans.BDkKE8Co.jpeg",
+    "src": "_romans.BDkKE8Co.jpeg"
+  },
+  "_romans.BYTT83Js.avif": {
+    "file": "_app/immutable/assets/romans.BYTT83Js.avif",
+    "src": "_romans.BYTT83Js.avif"
+  },
+  "_romans.Bixx8Xzt.jpeg": {
+    "file": "_app/immutable/assets/romans.Bixx8Xzt.jpeg",
+    "src": "_romans.Bixx8Xzt.jpeg"
+  },
+  "_romans.CqxcbVBy.jpeg": {
+    "file": "_app/immutable/assets/romans.CqxcbVBy.jpeg",
+    "src": "_romans.CqxcbVBy.jpeg"
+  },
+  "_romans.D1hBWtQj.avif": {
+    "file": "_app/immutable/assets/romans.D1hBWtQj.avif",
+    "src": "_romans.D1hBWtQj.avif"
+  },
+  "_romans.D4icTchz.avif": {
+    "file": "_app/immutable/assets/romans.D4icTchz.avif",
+    "src": "_romans.D4icTchz.avif"
+  },
+  "_romans.DVxRx7Ic.webp": {
+    "file": "_app/immutable/assets/romans.DVxRx7Ic.webp",
+    "src": "_romans.DVxRx7Ic.webp"
+  },
+  "_romans.DizzDSuG.webp": {
+    "file": "_app/immutable/assets/romans.DizzDSuG.webp",
+    "src": "_romans.DizzDSuG.webp"
+  },
+  "_romans.Dmemqftc.webp": {
+    "file": "_app/immutable/assets/romans.Dmemqftc.webp",
+    "src": "_romans.Dmemqftc.webp"
+  },
+  "_romans.UoFyD7iK.avif": {
+    "file": "_app/immutable/assets/romans.UoFyD7iK.avif",
+    "src": "_romans.UoFyD7iK.avif"
+  },
+  "_romans.bWBh3Cvi.jpeg": {
+    "file": "_app/immutable/assets/romans.bWBh3Cvi.jpeg",
+    "src": "_romans.bWBh3Cvi.jpeg"
+  },
+  "_romans.vOCzAkzN.webp": {
+    "file": "_app/immutable/assets/romans.vOCzAkzN.webp",
+    "src": "_romans.vOCzAkzN.webp"
+  },
+  "_think_c__.B4AwTDke.jpeg": {
+    "file": "_app/immutable/assets/think_c__.B4AwTDke.jpeg",
+    "src": "_think_c__.B4AwTDke.jpeg"
+  },
+  "_think_c__.B4IZHbV-.jpeg": {
+    "file": "_app/immutable/assets/think_c__.B4IZHbV-.jpeg",
+    "src": "_think_c__.B4IZHbV-.jpeg"
+  },
+  "_think_c__.BoGsCZlY.avif": {
+    "file": "_app/immutable/assets/think_c__.BoGsCZlY.avif",
+    "src": "_think_c__.BoGsCZlY.avif"
+  },
+  "_think_c__.BznSQ6Zt.avif": {
+    "file": "_app/immutable/assets/think_c__.BznSQ6Zt.avif",
+    "src": "_think_c__.BznSQ6Zt.avif"
+  },
+  "_think_c__.CNGBcpGs.avif": {
+    "file": "_app/immutable/assets/think_c__.CNGBcpGs.avif",
+    "src": "_think_c__.CNGBcpGs.avif"
+  },
+  "_think_c__.CmWMjo-g.webp": {
+    "file": "_app/immutable/assets/think_c__.CmWMjo-g.webp",
+    "src": "_think_c__.CmWMjo-g.webp"
+  },
+  "_think_c__.Cwe8AX8x.jpeg": {
+    "file": "_app/immutable/assets/think_c__.Cwe8AX8x.jpeg",
+    "src": "_think_c__.Cwe8AX8x.jpeg"
+  },
+  "_think_c__.D39wqOhb.avif": {
+    "file": "_app/immutable/assets/think_c__.D39wqOhb.avif",
+    "src": "_think_c__.D39wqOhb.avif"
+  },
+  "_think_c__.D9Xz_HeK.jpeg": {
+    "file": "_app/immutable/assets/think_c__.D9Xz_HeK.jpeg",
+    "src": "_think_c__.D9Xz_HeK.jpeg"
+  },
+  "_think_c__.FTqzFksh.webp": {
+    "file": "_app/immutable/assets/think_c__.FTqzFksh.webp",
+    "src": "_think_c__.FTqzFksh.webp"
+  },
+  "_think_c__.LuJQDuqu.webp": {
+    "file": "_app/immutable/assets/think_c__.LuJQDuqu.webp",
+    "src": "_think_c__.LuJQDuqu.webp"
+  },
+  "_think_c__.REpX47vI.webp": {
+    "file": "_app/immutable/assets/think_c__.REpX47vI.webp",
+    "src": "_think_c__.REpX47vI.webp"
+  },
+  "_think_java.BMeWy1En.webp": {
+    "file": "_app/immutable/assets/think_java.BMeWy1En.webp",
+    "src": "_think_java.BMeWy1En.webp"
+  },
+  "_think_java.C3eCx7aZ.jpeg": {
+    "file": "_app/immutable/assets/think_java.C3eCx7aZ.jpeg",
+    "src": "_think_java.C3eCx7aZ.jpeg"
+  },
+  "_think_java.COhEKjVf.webp": {
+    "file": "_app/immutable/assets/think_java.COhEKjVf.webp",
+    "src": "_think_java.COhEKjVf.webp"
+  },
+  "_think_java.CVd-ue-b.avif": {
+    "file": "_app/immutable/assets/think_java.CVd-ue-b.avif",
+    "src": "_think_java.CVd-ue-b.avif"
+  },
+  "_think_java.DFEyXcr8.jpeg": {
+    "file": "_app/immutable/assets/think_java.DFEyXcr8.jpeg",
+    "src": "_think_java.DFEyXcr8.jpeg"
+  },
+  "_think_java.DbF_gvh2.avif": {
+    "file": "_app/immutable/assets/think_java.DbF_gvh2.avif",
+    "src": "_think_java.DbF_gvh2.avif"
+  },
+  "_think_java.Dt2V4-Du.webp": {
+    "file": "_app/immutable/assets/think_java.Dt2V4-Du.webp",
+    "src": "_think_java.Dt2V4-Du.webp"
+  },
+  "_think_java._1qq8bx9.jpeg": {
+    "file": "_app/immutable/assets/think_java._1qq8bx9.jpeg",
+    "src": "_think_java._1qq8bx9.jpeg"
+  },
+  "_think_java.dZ3ktV-h.webp": {
+    "file": "_app/immutable/assets/think_java.dZ3ktV-h.webp",
+    "src": "_think_java.dZ3ktV-h.webp"
+  },
+  "_think_java.gCeAUFe5.avif": {
+    "file": "_app/immutable/assets/think_java.gCeAUFe5.avif",
+    "src": "_think_java.gCeAUFe5.avif"
+  },
+  "_think_java.jwJav_V3.avif": {
+    "file": "_app/immutable/assets/think_java.jwJav_V3.avif",
+    "src": "_think_java.jwJav_V3.avif"
+  },
+  "_think_java.yFDaLpZX.jpeg": {
+    "file": "_app/immutable/assets/think_java.yFDaLpZX.jpeg",
+    "src": "_think_java.yFDaLpZX.jpeg"
+  },
+  "_uUVrmSwv.js": {
+    "file": "_app/immutable/chunks/uUVrmSwv.js",
+    "name": "index",
+    "imports": [
+      "_jmuzHjgz.js"
+    ]
+  },
+  "_vcCtZRDX.js": {
+    "file": "_app/immutable/chunks/vcCtZRDX.js",
+    "name": "html",
+    "imports": [
+      "_jmuzHjgz.js",
+      "_BJlL0-Sw.js"
+    ]
+  },
+  "_windows_installation_1.CXFSSTuj.avif": {
+    "file": "_app/immutable/assets/windows_installation_1.CXFSSTuj.avif",
+    "src": "_windows_installation_1.CXFSSTuj.avif"
+  },
+  "_windows_installation_1.ChahaDar.webp": {
+    "file": "_app/immutable/assets/windows_installation_1.ChahaDar.webp",
+    "src": "_windows_installation_1.ChahaDar.webp"
+  },
+  "_windows_installation_1.ClKihwYu.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_1.ClKihwYu.jpeg",
+    "src": "_windows_installation_1.ClKihwYu.jpeg"
+  },
+  "_windows_installation_1.DMCwLi05.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_1.DMCwLi05.jpeg",
+    "src": "_windows_installation_1.DMCwLi05.jpeg"
+  },
+  "_windows_installation_1.DcJ7_Xks.webp": {
+    "file": "_app/immutable/assets/windows_installation_1.DcJ7_Xks.webp",
+    "src": "_windows_installation_1.DcJ7_Xks.webp"
+  },
+  "_windows_installation_1.Dunz6aUV.avif": {
+    "file": "_app/immutable/assets/windows_installation_1.Dunz6aUV.avif",
+    "src": "_windows_installation_1.Dunz6aUV.avif"
+  },
+  "_windows_installation_2.9U29oU_h.avif": {
+    "file": "_app/immutable/assets/windows_installation_2.9U29oU_h.avif",
+    "src": "_windows_installation_2.9U29oU_h.avif"
+  },
+  "_windows_installation_2.CMBSWqYC.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_2.CMBSWqYC.jpeg",
+    "src": "_windows_installation_2.CMBSWqYC.jpeg"
+  },
+  "_windows_installation_2.DYPJiPqm.webp": {
+    "file": "_app/immutable/assets/windows_installation_2.DYPJiPqm.webp",
+    "src": "_windows_installation_2.DYPJiPqm.webp"
+  },
+  "_windows_installation_2.Sp1JlQXt.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_2.Sp1JlQXt.jpeg",
+    "src": "_windows_installation_2.Sp1JlQXt.jpeg"
+  },
+  "_windows_installation_2.k2Z84m7c.webp": {
+    "file": "_app/immutable/assets/windows_installation_2.k2Z84m7c.webp",
+    "src": "_windows_installation_2.k2Z84m7c.webp"
+  },
+  "_windows_installation_2.uGtLgs6G.avif": {
+    "file": "_app/immutable/assets/windows_installation_2.uGtLgs6G.avif",
+    "src": "_windows_installation_2.uGtLgs6G.avif"
+  },
+  "_windows_installation_3.B0Rr5HUe.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_3.B0Rr5HUe.jpeg",
+    "src": "_windows_installation_3.B0Rr5HUe.jpeg"
+  },
+  "_windows_installation_3.BSq_lpyq.avif": {
+    "file": "_app/immutable/assets/windows_installation_3.BSq_lpyq.avif",
+    "src": "_windows_installation_3.BSq_lpyq.avif"
+  },
+  "_windows_installation_3.BoYy8fk8.webp": {
+    "file": "_app/immutable/assets/windows_installation_3.BoYy8fk8.webp",
+    "src": "_windows_installation_3.BoYy8fk8.webp"
+  },
+  "_windows_installation_3.CUcJ2JPU.avif": {
+    "file": "_app/immutable/assets/windows_installation_3.CUcJ2JPU.avif",
+    "src": "_windows_installation_3.CUcJ2JPU.avif"
+  },
+  "_windows_installation_3.DT6W-_H5.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_3.DT6W-_H5.jpeg",
+    "src": "_windows_installation_3.DT6W-_H5.jpeg"
+  },
+  "_windows_installation_3.DbhTM6cN.webp": {
+    "file": "_app/immutable/assets/windows_installation_3.DbhTM6cN.webp",
+    "src": "_windows_installation_3.DbhTM6cN.webp"
+  },
+  "_windows_installation_4.6kvefM_s.avif": {
+    "file": "_app/immutable/assets/windows_installation_4.6kvefM_s.avif",
+    "src": "_windows_installation_4.6kvefM_s.avif"
+  },
+  "_windows_installation_4.B1lCKKr7.webp": {
+    "file": "_app/immutable/assets/windows_installation_4.B1lCKKr7.webp",
+    "src": "_windows_installation_4.B1lCKKr7.webp"
+  },
+  "_windows_installation_4.BSslvsGM.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_4.BSslvsGM.jpeg",
+    "src": "_windows_installation_4.BSslvsGM.jpeg"
+  },
+  "_windows_installation_4.DBxUPtVe.avif": {
+    "file": "_app/immutable/assets/windows_installation_4.DBxUPtVe.avif",
+    "src": "_windows_installation_4.DBxUPtVe.avif"
+  },
+  "_windows_installation_4.DZTreOm-.webp": {
+    "file": "_app/immutable/assets/windows_installation_4.DZTreOm-.webp",
+    "src": "_windows_installation_4.DZTreOm-.webp"
+  },
+  "_windows_installation_4.rI3pIZoU.jpeg": {
+    "file": "_app/immutable/assets/windows_installation_4.rI3pIZoU.jpeg",
+    "src": "_windows_installation_4.rI3pIZoU.jpeg"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "_app/immutable/entry/start.Cwhstffk.js",
+    "name": "entry/start",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_CF79PsVf.js",
+      "_Dl2NJAAt.js"
+    ]
+  },
+  "src/lib/icons/icomoon/fonts/icomoon.eot": {
+    "file": "_app/immutable/assets/icomoon.DzHHrZMD.eot",
+    "src": "src/lib/icons/icomoon/fonts/icomoon.eot"
+  },
+  "src/lib/icons/icomoon/fonts/icomoon.svg": {
+    "file": "_app/immutable/assets/icomoon.Dkxdpf40.svg",
+    "src": "src/lib/icons/icomoon/fonts/icomoon.svg"
+  },
+  "src/lib/icons/icomoon/fonts/icomoon.ttf": {
+    "file": "_app/immutable/assets/icomoon.CbQiC5IS.ttf",
+    "src": "src/lib/icons/icomoon/fonts/icomoon.ttf"
+  },
+  "src/lib/icons/icomoon/fonts/icomoon.woff": {
+    "file": "_app/immutable/assets/icomoon.DUbCb_eQ.woff",
+    "src": "src/lib/icons/icomoon/fonts/icomoon.woff"
+  },
+  "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.0.bundle.zip": {
+    "file": "_app/immutable/assets/Ergopti_v2.2.0.bundle.D1N1K5Me.zip",
+    "src": "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.0.bundle.zip"
+  },
+  "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.0.bundle.zip?url": {
+    "file": "_app/immutable/chunks/Dii0Rfe1.js",
+    "name": "Ergopti_v2.2.0.bundle",
+    "src": "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.0.bundle.zip?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.2.0.bundle.D1N1K5Me.zip"
+    ]
+  },
+  "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.1.bundle.zip": {
+    "file": "_app/immutable/assets/Ergopti_v2.2.1.bundle.-Ve1tRfB.zip",
+    "src": "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.1.bundle.zip"
+  },
+  "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.1.bundle.zip?url": {
+    "file": "_app/immutable/chunks/CL2eUaXv.js",
+    "name": "Ergopti_v2.2.1.bundle",
+    "src": "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.1.bundle.zip?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.2.1.bundle.-Ve1tRfB.zip"
+    ]
+  },
+  "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.2.bundle.zip": {
+    "file": "_app/immutable/assets/Ergopti_v2.2.2.bundle.CYfxH6AB.zip",
+    "src": "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.2.bundle.zip"
+  },
+  "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.2.bundle.zip?url": {
+    "file": "_app/immutable/chunks/1tYOHF4Z.js",
+    "name": "Ergopti_v2.2.2.bundle",
+    "src": "static/ergopti/macos/bundles/zipped_bundles/Ergopti_v2.2.2.bundle.zip?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.2.2.bundle.CYfxH6AB.zip"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v1.1.3.exe": {
+    "file": "_app/immutable/assets/Ergopti_v1.1.3.CjyxtVTQ.exe",
+    "src": "static/ergopti/windows/Ergopti_v1.1.3.exe"
+  },
+  "static/ergopti/windows/Ergopti_v1.1.3.exe?url": {
+    "file": "_app/immutable/chunks/CqyWIoqk.js",
+    "name": "Ergopti_v1.1.3",
+    "src": "static/ergopti/windows/Ergopti_v1.1.3.exe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v1.1.3.CjyxtVTQ.exe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v1.1.3.kbe": {
+    "file": "_app/immutable/assets/Ergopti_v1.1.3.BH8Gl8W2.kbe",
+    "src": "static/ergopti/windows/Ergopti_v1.1.3.kbe"
+  },
+  "static/ergopti/windows/Ergopti_v1.1.3.kbe?url": {
+    "file": "_app/immutable/chunks/BrDXPASm.js",
+    "name": "Ergopti_v1.1.3",
+    "src": "static/ergopti/windows/Ergopti_v1.1.3.kbe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v1.1.3.BH8Gl8W2.kbe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.0.2.exe": {
+    "file": "_app/immutable/assets/Ergopti_v2.0.2.BkkcNn5r.exe",
+    "src": "static/ergopti/windows/Ergopti_v2.0.2.exe"
+  },
+  "static/ergopti/windows/Ergopti_v2.0.2.exe?url": {
+    "file": "_app/immutable/chunks/CEkM_k7d.js",
+    "name": "Ergopti_v2.0.2",
+    "src": "static/ergopti/windows/Ergopti_v2.0.2.exe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.0.2.BkkcNn5r.exe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.0.2.kbe": {
+    "file": "_app/immutable/assets/Ergopti_v2.0.2.k7sLobIp.kbe",
+    "src": "static/ergopti/windows/Ergopti_v2.0.2.kbe"
+  },
+  "static/ergopti/windows/Ergopti_v2.0.2.kbe?url": {
+    "file": "_app/immutable/chunks/CdaKdp5p.js",
+    "name": "Ergopti_v2.0.2",
+    "src": "static/ergopti/windows/Ergopti_v2.0.2.kbe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.0.2.k7sLobIp.kbe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.1.1.exe": {
+    "file": "_app/immutable/assets/Ergopti_v2.1.1.DXrbcJ_J.exe",
+    "src": "static/ergopti/windows/Ergopti_v2.1.1.exe"
+  },
+  "static/ergopti/windows/Ergopti_v2.1.1.exe?url": {
+    "file": "_app/immutable/chunks/2Q6DDTfi.js",
+    "name": "Ergopti_v2.1.1",
+    "src": "static/ergopti/windows/Ergopti_v2.1.1.exe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.1.1.DXrbcJ_J.exe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.1.1.kbe": {
+    "file": "_app/immutable/assets/Ergopti_v2.1.1.CiEzB730.kbe",
+    "src": "static/ergopti/windows/Ergopti_v2.1.1.kbe"
+  },
+  "static/ergopti/windows/Ergopti_v2.1.1.kbe?url": {
+    "file": "_app/immutable/chunks/B8Qxu-Y4.js",
+    "name": "Ergopti_v2.1.1",
+    "src": "static/ergopti/windows/Ergopti_v2.1.1.kbe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.1.1.CiEzB730.kbe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.1.2.exe": {
+    "file": "_app/immutable/assets/Ergopti_v2.1.2.DnvAEowf.exe",
+    "src": "static/ergopti/windows/Ergopti_v2.1.2.exe"
+  },
+  "static/ergopti/windows/Ergopti_v2.1.2.exe?url": {
+    "file": "_app/immutable/chunks/CiFN_14k.js",
+    "name": "Ergopti_v2.1.2",
+    "src": "static/ergopti/windows/Ergopti_v2.1.2.exe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.1.2.DnvAEowf.exe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.1.2.kbe": {
+    "file": "_app/immutable/assets/Ergopti_v2.1.2.BdFLeClM.kbe",
+    "src": "static/ergopti/windows/Ergopti_v2.1.2.kbe"
+  },
+  "static/ergopti/windows/Ergopti_v2.1.2.kbe?url": {
+    "file": "_app/immutable/chunks/Bn_taXMP.js",
+    "name": "Ergopti_v2.1.2",
+    "src": "static/ergopti/windows/Ergopti_v2.1.2.kbe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.1.2.BdFLeClM.kbe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.1.3.exe": {
+    "file": "_app/immutable/assets/Ergopti_v2.1.3.D2piXzpn.exe",
+    "src": "static/ergopti/windows/Ergopti_v2.1.3.exe"
+  },
+  "static/ergopti/windows/Ergopti_v2.1.3.exe?url": {
+    "file": "_app/immutable/chunks/BrXLdLyv.js",
+    "name": "Ergopti_v2.1.3",
+    "src": "static/ergopti/windows/Ergopti_v2.1.3.exe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.1.3.D2piXzpn.exe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.1.3.kbe": {
+    "file": "_app/immutable/assets/Ergopti_v2.1.3.CpmSznRt.kbe",
+    "src": "static/ergopti/windows/Ergopti_v2.1.3.kbe"
+  },
+  "static/ergopti/windows/Ergopti_v2.1.3.kbe?url": {
+    "file": "_app/immutable/chunks/C5BcPmb9.js",
+    "name": "Ergopti_v2.1.3",
+    "src": "static/ergopti/windows/Ergopti_v2.1.3.kbe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.1.3.CpmSznRt.kbe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.2.0.exe": {
+    "file": "_app/immutable/assets/Ergopti_v2.2.0.BqEfj7hx.exe",
+    "src": "static/ergopti/windows/Ergopti_v2.2.0.exe"
+  },
+  "static/ergopti/windows/Ergopti_v2.2.0.exe?url": {
+    "file": "_app/immutable/chunks/Caf7qC2K.js",
+    "name": "Ergopti_v2.2.0",
+    "src": "static/ergopti/windows/Ergopti_v2.2.0.exe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.2.0.BqEfj7hx.exe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.2.0.kbe?url": {
+    "file": "_app/immutable/chunks/CZA6pOLB.js",
+    "name": "Ergopti_v2.2.0",
+    "src": "static/ergopti/windows/Ergopti_v2.2.0.kbe?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti/windows/Ergopti_v2.2.1.exe": {
+    "file": "_app/immutable/assets/Ergopti_v2.2.1.Bbpjsfa3.exe",
+    "src": "static/ergopti/windows/Ergopti_v2.2.1.exe"
+  },
+  "static/ergopti/windows/Ergopti_v2.2.1.exe?url": {
+    "file": "_app/immutable/chunks/Dm6RGFJu.js",
+    "name": "Ergopti_v2.2.1",
+    "src": "static/ergopti/windows/Ergopti_v2.2.1.exe?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/Ergopti_v2.2.1.Bbpjsfa3.exe"
+    ]
+  },
+  "static/ergopti/windows/Ergopti_v2.2.1.kbe?url": {
+    "file": "_app/immutable/chunks/DUIHvReX.js",
+    "name": "Ergopti_v2.2.1",
+    "src": "static/ergopti/windows/Ergopti_v2.2.1.kbe?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v1.1.3.toml": {
+    "file": "_app/immutable/chunks/BlDwfeWj.js",
+    "name": "ergo_1dk_v1.1.3",
+    "src": "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v1.1.3.toml",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/ergo_1dk_v1.1.3.DzN7oxY9.toml"
+    ]
+  },
+  "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.0.0.toml": {
+    "file": "_app/immutable/chunks/kF5o6L02.js",
+    "name": "ergo_1dk_v2.0.0",
+    "src": "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.0.0.toml",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/ergo_1dk_v2.0.0.Bo0Xb93A.toml"
+    ]
+  },
+  "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.0.toml": {
+    "file": "_app/immutable/chunks/D2OSktkf.js",
+    "name": "ergo_1dk_v2.1.0",
+    "src": "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.0.toml",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/ergo_1dk_v2.1.0.3Dntx4HV.toml"
+    ]
+  },
+  "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.1.toml": {
+    "file": "_app/immutable/chunks/Cc93qW3c.js",
+    "name": "ergo_1dk_v2.1.1",
+    "src": "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.1.toml",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/ergo_1dk_v2.1.1.qpmZ0WUM.toml"
+    ]
+  },
+  "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.2.toml": {
+    "file": "_app/immutable/chunks/a2zU3rGU.js",
+    "name": "ergo_1dk_v2.1.2",
+    "src": "static/ergopti_plus/old/kalamine/1dk/ergo_1dk_v2.1.2.toml",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/ergo_1dk_v2.1.2.BpmrOjaq.toml"
+    ]
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3.toml?url": {
+    "file": "_app/immutable/chunks/BVPdWny3.js",
+    "name": "ergopti_v1.1.3",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3_analyse.toml": {
+    "file": "_app/immutable/chunks/L5m9x3AU.js",
+    "name": "ergopti_v1.1.3_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3_analyse.toml",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3_analyse.toml?url": {
+    "file": "_app/immutable/chunks/DJlj5Fb1.js",
+    "name": "ergopti_v1.1.3_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v1.1.3_analyse.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0.toml?url": {
+    "file": "_app/immutable/chunks/BssskxNH.js",
+    "name": "ergopti_v2.0.0",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0_analyse.toml": {
+    "file": "_app/immutable/chunks/DYKB4LVv.js",
+    "name": "ergopti_v2.0.0_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0_analyse.toml",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0_analyse.toml?url": {
+    "file": "_app/immutable/chunks/CeE99zxa.js",
+    "name": "ergopti_v2.0.0_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.0.0_analyse.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0.toml?url": {
+    "file": "_app/immutable/chunks/CBEfApvq.js",
+    "name": "ergopti_v2.1.0",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0_analyse.toml": {
+    "file": "_app/immutable/chunks/CdQG57X6.js",
+    "name": "ergopti_v2.1.0_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0_analyse.toml",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0_analyse.toml?url": {
+    "file": "_app/immutable/chunks/BnuIm-T3.js",
+    "name": "ergopti_v2.1.0_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.0_analyse.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2.toml?url": {
+    "file": "_app/immutable/chunks/BKlTgdWb.js",
+    "name": "ergopti_v2.1.2",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2_analyse.toml": {
+    "file": "_app/immutable/chunks/BMinVjbn.js",
+    "name": "ergopti_v2.1.2_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2_analyse.toml",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2_analyse.toml?url": {
+    "file": "_app/immutable/chunks/7LVDsq4-.js",
+    "name": "ergopti_v2.1.2_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.1.2_analyse.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0.toml?url": {
+    "file": "_app/immutable/chunks/DsICOKuG.js",
+    "name": "ergopti_v2.2.0",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0_analyse.toml": {
+    "file": "_app/immutable/chunks/Bp0mhMV8.js",
+    "name": "ergopti_v2.2.0_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0_analyse.toml",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0_analyse.toml?url": {
+    "file": "_app/immutable/chunks/DCTgiido.js",
+    "name": "ergopti_v2.2.0_analyse",
+    "src": "static/ergopti_plus/old/kalamine/standard/ergopti_v2.2.0_analyse.toml?url",
+    "isDynamicEntry": true
+  },
+  "static/ergopti_plus/windows/ErgoptiPlus.ahk": {
+    "file": "_app/immutable/assets/ErgoptiPlus.CAh2n-o4.ahk",
+    "src": "static/ergopti_plus/windows/ErgoptiPlus.ahk"
+  },
+  "static/ergopti_plus/windows/ErgoptiPlus.ahk?url": {
+    "file": "_app/immutable/chunks/DNtxrYFX.js",
+    "name": "ErgoptiPlus",
+    "src": "static/ergopti_plus/windows/ErgoptiPlus.ahk?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/ErgoptiPlus.CAh2n-o4.ahk"
+    ]
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.1.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/CBLcXjCn.js",
+    "name": "ergopti.v1.0.1.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.1.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.10.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/D_s_0a3C.js",
+    "name": "ergopti.v1.0.10.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.10.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.11.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/29l8LQpp.js",
+    "name": "ergopti.v1.0.11.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.11.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.12.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/j9ySow5U.js",
+    "name": "ergopti.v1.0.12.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.12.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.16.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/CWnJjDkZ.js",
+    "name": "ergopti.v1.0.16.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.16.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.17.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/BWP02hgG.js",
+    "name": "ergopti.v1.0.17.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.17.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.19.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/CVPsjf9w.js",
+    "name": "ergopti.v1.0.19.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.19.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.2.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/SJEYIZwU.js",
+    "name": "ergopti.v1.0.2.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.2.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.3.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/BQ8EiVCK.js",
+    "name": "ergopti.v1.0.3.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.3.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.4.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/CVwTUGyF.js",
+    "name": "ergopti.v1.0.4.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.4.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.5.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/1brPrmQM.js",
+    "name": "ergopti.v1.0.5.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.5.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.6.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/BJKjgkxx.js",
+    "name": "ergopti.v1.0.6.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.6.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.7.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/BZ69nNTF.js",
+    "name": "ergopti.v1.0.7.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.7.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.8.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/g2AL1dQt.js",
+    "name": "ergopti.v1.0.8.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.8.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.0.9.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/BvtRs55R.js",
+    "name": "ergopti.v1.0.9.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.0.9.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v1.1.3.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/B7YmdDwK.js",
+    "name": "ergopti.v1.1.3.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v1.1.3.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v2.0.0.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/oK7IZfJs.js",
+    "name": "ergopti.v2.0.0.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v2.0.0.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v2.1.0.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/BNScgipA.js",
+    "name": "ergopti.v2.1.0.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v2.1.0.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_ergodox/ergopti.v2.2.0.fr.ergodox.json": {
+    "file": "_app/immutable/chunks/D-FYYgEI.js",
+    "name": "ergopti.v2.2.0.fr.ergodox",
+    "src": "static/layouts/kla_ergodox/ergopti.v2.2.0.fr.ergodox.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.1.fr.iso.json": {
+    "file": "_app/immutable/chunks/8F-qOrAR.js",
+    "name": "ergopti.v1.0.1.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.1.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.10.fr.iso.json": {
+    "file": "_app/immutable/chunks/dTfH6gSY.js",
+    "name": "ergopti.v1.0.10.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.10.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.11.fr.iso.json": {
+    "file": "_app/immutable/chunks/27d4TL5F.js",
+    "name": "ergopti.v1.0.11.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.11.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.11.fraude.fr.iso.json": {
+    "file": "_app/immutable/chunks/hhvuE7sX.js",
+    "name": "ergopti.v1.0.11.fraude.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.11.fraude.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.12.fr.iso.json": {
+    "file": "_app/immutable/chunks/BoYksKR3.js",
+    "name": "ergopti.v1.0.12.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.12.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.16.fr.iso.json": {
+    "file": "_app/immutable/chunks/DzJ8t8lD.js",
+    "name": "ergopti.v1.0.16.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.16.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.17.fr.iso.json": {
+    "file": "_app/immutable/chunks/ZaBuX8Th.js",
+    "name": "ergopti.v1.0.17.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.17.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.19.fr.iso+.json": {
+    "file": "_app/immutable/chunks/D_R4ct0C.js",
+    "name": "ergopti.v1.0.19.fr.iso_",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.19.fr.iso+.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.19.fr.iso.json": {
+    "file": "_app/immutable/chunks/_EXiyajm.js",
+    "name": "ergopti.v1.0.19.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.19.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.2.fr.iso.json": {
+    "file": "_app/immutable/chunks/DF-yMBcZ.js",
+    "name": "ergopti.v1.0.2.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.2.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.3.fr.iso.json": {
+    "file": "_app/immutable/chunks/CZdRWtya.js",
+    "name": "ergopti.v1.0.3.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.3.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.4.fr.iso.json": {
+    "file": "_app/immutable/chunks/DMnHOFgQ.js",
+    "name": "ergopti.v1.0.4.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.4.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.5.fr.iso.json": {
+    "file": "_app/immutable/chunks/BmwVknu_.js",
+    "name": "ergopti.v1.0.5.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.5.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.7.fr.iso.json": {
+    "file": "_app/immutable/chunks/j3-KSsJW.js",
+    "name": "ergopti.v1.0.7.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.7.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.8.fr.iso.json": {
+    "file": "_app/immutable/chunks/DXIeLobs.js",
+    "name": "ergopti.v1.0.8.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.8.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.0.9.fr.iso.json": {
+    "file": "_app/immutable/chunks/Balvv4_R.js",
+    "name": "ergopti.v1.0.9.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.0.9.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.1.3.fr.iso+.json": {
+    "file": "_app/immutable/chunks/DCnROL50.js",
+    "name": "ergopti.v1.1.3.fr.iso_",
+    "src": "static/layouts/kla_iso/ergopti.v1.1.3.fr.iso+.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v1.1.3.fr.iso.json": {
+    "file": "_app/immutable/chunks/CYTMrd3i.js",
+    "name": "ergopti.v1.1.3.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v1.1.3.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v2.0.0.fr.iso+.json": {
+    "file": "_app/immutable/chunks/Jaa9q4rM.js",
+    "name": "ergopti.v2.0.0.fr.iso_",
+    "src": "static/layouts/kla_iso/ergopti.v2.0.0.fr.iso+.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v2.0.0.fr.iso.json": {
+    "file": "_app/immutable/chunks/DjOqT0vU.js",
+    "name": "ergopti.v2.0.0.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v2.0.0.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v2.1.0.fr.iso+.json": {
+    "file": "_app/immutable/chunks/DiSJDl0u.js",
+    "name": "ergopti.v2.1.0.fr.iso_",
+    "src": "static/layouts/kla_iso/ergopti.v2.1.0.fr.iso+.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v2.1.0.fr.iso.json": {
+    "file": "_app/immutable/chunks/Wj1ELO2P.js",
+    "name": "ergopti.v2.1.0.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v2.1.0.fr.iso.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v2.2.0.fr.iso+.json": {
+    "file": "_app/immutable/chunks/CF-I4534.js",
+    "name": "ergopti.v2.2.0.fr.iso_",
+    "src": "static/layouts/kla_iso/ergopti.v2.2.0.fr.iso+.json",
+    "isDynamicEntry": true
+  },
+  "static/layouts/kla_iso/ergopti.v2.2.0.fr.iso.json": {
+    "file": "_app/immutable/chunks/Dv1UpNYd.js",
+    "name": "ergopti.v2.2.0.fr.iso",
+    "src": "static/layouts/kla_iso/ergopti.v2.2.0.fr.iso.json",
+    "isDynamicEntry": true
+  }
+}
